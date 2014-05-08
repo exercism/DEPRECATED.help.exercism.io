@@ -1,0 +1,47 @@
+.main,
+.footer {
+  -webkit-transition: margin-left 150ms ease;
+  transition: margin-left 150ms ease;
+  margin-left: 0;
+}
+
+header {
+ padding: 0 0 0 20px;
+}
+
+nav {
+  font-family: $sans-light;
+  background-color: $white;
+  height: 4.5em;
+  padding: 20px 20px 20px 16%;
+  z-index: 10;
+}
+
+.masthead {
+  background-color: $berry;
+  height: 15em;
+}
+
+.mast-contents {
+  padding: 35px 0 0 15%;
+}
+
+.mast-logo {
+  vertical-align: middle;
+}
+
+.article-block {
+  padding: 20px;
+  border-bottom: 1px solid $border-grey;
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+  article:last-child {
+    border-bottom: 0px
+  }
+
+.article-contents {
+  padding: 15px 0 20px 16%;
+}

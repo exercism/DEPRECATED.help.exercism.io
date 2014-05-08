@@ -1,0 +1,30 @@
+{
+  "name": "exercism-docs",
+  "description": "End-user documentation for exercism.io",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.21"
+  },
+  "private": true,
+  "homepage": "http://help.exercism.io",
+  "author": "Katrina Owen",
+  "email": "kytrinyx@exercism.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/exercism/docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/exercism/docs/issues"
+  },
+  "scripts": {
+    "start": "lineman run"
+  },
+  "devDependencies": {
+    "lineman": "~0.29.0",
+    "lineman-blog": "git://github.com/linemanjs/lineman-blog.git#master",
+    "grunt-html-validation": "~0.1.13",
+    "grunt-htmlhint": "~0.4.0",
+    "underscore.string": "~2.3.3"
+  },
+  "license": "MIT"
+}

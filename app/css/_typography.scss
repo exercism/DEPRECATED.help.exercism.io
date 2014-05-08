@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $fill-grey;
+  margin: 1em 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0
+}
+
+p {
+  color: $type-grey;
+  font-size: 0.85rem;
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0;
+}
+
+pre {
+  background: $white;
+  display: inline-block;
+  width: 440px;
+  height: 35px;
+  border: 1px solid $border-grey;
+  border-radius: 3px;
+  padding-top: 8px;
+  padding-left: 12px;
+  text-align: left;
+  margin: 15px 0 30px 0;
+  color: $charcoal;
+  font-size: .875rem;
+  -webkit-box-shadow: 0px 3px 2px #f7f7f7 inset;
+  -moz-box-shadow: 0px 3px 2px #f7f7f7 inset;
+  box-shadow: 0px 3px 2px #f7f7f7 inset;
+}
+
+h1, h2, h3 {
+  font-family: $sans-light;
+}
+
+.headline {
+  color: $white;
+  font-family: $sans-light;
+  font-size: 2.375em;
+  font-weight: 100;
+  margin: 0;
+}
+
+.header {
+  color: $berry;
+  font-family: $sans-light;
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+.sub-head {
+  font-family: $sans-regular;
+  font-size: .95em;
+  margin: 0;
+  color: $dark-berry;
+}
+
+.nav-link {
+  font-family: $sans-light;
+  font-size: 1.125em;
+  font-weight: normal;
+}

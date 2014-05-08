@@ -1,0 +1,70 @@
+<% site.categories = [
+  "Languages",
+  "Process",
+  "Topics"
+]
+.map(function(categoryTitle){
+  return new site.lib.Category(site, categoryTitle)
+});
+%><!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
+    <title><%= site.title %><%= post ? ' - '+post.title() : '' %></title>
+  </head>
+  <body>
+    <aside class="main-sidebar">
+      <nav id="sidr-right" class="sidr right">
+        <span class="close skm">Close</span>
+
+        <p class="pages">
+          <a class="toc_title" href="http://exercism.io">Exercism.io</a>
+        </p>
+
+        <% site.categories.forEach(function(category){ %>
+        <a class="toc_title" href="#<%- category.slug %>"><%- category.title %></a>
+        <ul class="toc_section">
+          <% category.pages.forEach(function(page){ %>
+          <li>- <a href="/<%- page.get('slug') %>.html"><%- page.title() %></a></li>
+          <% }); %>
+        </ul>
+        <% }); %>
+      </nav>
+    </aside>
+
+    <header>
+      <nav>
+        <a href="http://exercism.io">exercism.io</a>
+      </nav>
+    </header>
+
+    <section class="main">
+      <section class="masthead">
+        <div class="mast-contents">
+          <a href="/"><img class="mast-logo" src="/img/logo.svg"></a>
+          <span class="headline">Help</span>
+        </div>
+      </section>
+    </section>
+
+    <article class="article-block">
+      <div class="article-contents">
+        <%= yield %>
+      </div>
+    </article>
+
+    <footer>
+      <img class="url-logo" src="/img/logo-url.svg">
+      <div class="details-container">
+        <p>&copy; <%= new Date().getFullYear()%> <%= site.author %></p>.
+        <p>Report bugs and submit feedback on
+           <a href="http://github.com/exercism/exercism.io/issues" target="_blank">GitHub</a>.
+        </p>
+        <p>Email me at
+           <a href="mailto:<%= site.email %>"><%= site.email %></a>.
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="<%= js %>"></script>
+  </body>
+</html>
