@@ -1,3 +1,2 @@
 $(document).ready ->
-  $('#simple-menu').sidr()
-  $.sidr('close', 'sidr');
+  new Sidebar($('#simple-menu'))
