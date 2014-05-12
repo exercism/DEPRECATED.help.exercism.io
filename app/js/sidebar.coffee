@@ -1,5 +1,9 @@
 window.Sidebar = class Sidebar
   constructor: ($el) ->
     $el.sidr()
-    # this didn't chain :/ Maybe it could, though.
+    @close()
+    $('.close').on 'click', =>
+      @close()
+
+  close: ->
     $.sidr('close', 'sidr')
