@@ -9,6 +9,10 @@ header {
  padding: 0 0 0 20px;
 }
 
+header nav {
+  padding-left: 0;
+}
+
 nav {
   font-family: $sans-light;
   background-color: $white;

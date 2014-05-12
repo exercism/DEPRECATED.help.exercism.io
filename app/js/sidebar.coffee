@@ -2,7 +2,9 @@ escapeKey = 27
 
 window.Sidebar = class Sidebar
   constructor: ($el) ->
-    $el.sidr()
+    @menuLink = $el
+
+    @menuLink.sidr()
     @close()
     $('.close').on 'click', =>
       @close()
@@ -11,3 +13,4 @@ window.Sidebar = class Sidebar
 
   close: ->
     $.sidr('close', 'sidr')
+    @menuLink.show()
