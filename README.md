@@ -32,6 +32,13 @@ ordinal: 1
 
 Below the metadata, the documentation can be added using GitHub flavored markdown.
 
+## Running on a different port
+
+If you have multiple lineman apps, you may want to run this on something other than `8000`, which is the default.
+
+```bash
+$ WEB_PORT=9000 lineman run
+```
 
 ## LICENSE
 
