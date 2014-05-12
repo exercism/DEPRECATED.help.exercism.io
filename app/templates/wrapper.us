@@ -13,10 +13,9 @@
     <title><%= site.title %><%= post ? ' - '+post.title() : '' %></title>
   </head>
   <body>
-    <aside class="main-sidebar">
-      <nav id="sidr-right" class="sidr right">
-        <span class="close skm">Close</span>
 
+    <aside class="main-sidebar" id="sidr">
+      <nav>
         <p class="pages">
           <a class="toc_title" href="http://exercism.io">Exercism.io</a>
         </p>
@@ -34,7 +33,7 @@
 
     <header>
       <nav>
-        <a href="http://exercism.io">exercism.io</a>
+        <a id="simple-menu" href="#sidr">Menu</a>
       </nav>
     </header>
 
