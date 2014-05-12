@@ -16,6 +16,8 @@
 
     <aside class="main-sidebar" id="sidr">
       <nav>
+        <a class="sidebar-x"><img class="sidebar-close" src="/img/close.svg"></a>
+
         <p class="pages">
           <a class="toc_title" href="http://exercism.io">Exercism.io</a>
         </p>
