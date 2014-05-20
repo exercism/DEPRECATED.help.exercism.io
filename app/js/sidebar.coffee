@@ -6,10 +6,13 @@ window.Sidebar = class Sidebar
 
     @menuLink.sidr()
     @close()
+
     $('.close').on 'click', =>
       @close()
+
     $(document).on 'keyup', (e) =>
-      @close() if e.keyCode == escapeKey
+      if e.keyCode == escapeKey
+        @close()
 
   close: ->
     $.sidr('close', 'sidr')
