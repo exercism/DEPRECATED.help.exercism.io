@@ -20,5 +20,6 @@ They all have different goals and a different focus, and you might enjoy them:
 * [Matasano Crypto Challenges](http://www.matasano.com/articles/crypto-challenges)
 * [Python Practice Projects](http://pythonpracticeprojects.com)
 * [TalentBuddy](http://talentbuddy.co)
+* [Project Euler](https://projecteuler.net/)
 
 _Note: if you have experience with any of these, feel free to [add sections below](https://github.com/exercism/docs/fork) that describe their interesting features or how they are different from other sites._
