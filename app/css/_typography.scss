@@ -24,6 +24,9 @@ p {
 }
 
 pre {
+  code {
+    font-family: $sans-light;
+  }
   display: inline-block;
   background-color: #F1F1F1;
   width: 100%;

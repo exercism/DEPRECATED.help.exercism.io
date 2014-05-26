@@ -17,25 +17,25 @@
     <aside class="main-sidebar" id="sidr">
       <nav>
         <a class="close"><img class="sidebar-close" src="/img/close.svg"></a>
+        <div class="main-sidebar-inner">
+          <p><a href="/">Exercism.io Help</a></p>
 
-        <p class="pages">
-          <a class="toc_title" href="http://exercism.io">Exercism.io</a>
-        </p>
-
-        <% site.categories.forEach(function(category){ %>
-        <a class="toc_title"><%- category.title %></a>
-        <ul class="toc_section">
-          <% category.pages.forEach(function(page){ %>
-          <li>- <a href="/<%- page.get('slug') %>.html"><%- page.title() %></a></li>
+          <% site.categories.forEach(function(category){ %>
+          <a class="toc_title"><%- category.title %></a>
+          <ul class="toc_section">
+            <% category.pages.forEach(function(page){ %>
+            <li>- <a href="/<%- page.get('slug') %>.html"><%- page.title() %></a></li>
+            <% }); %>
+          </ul>
           <% }); %>
-        </ul>
-        <% }); %>
+        <div class="main-sidebar-inner">
       </nav>
     </aside>
 
     <header>
       <nav>
         <a id="simple-menu" href="#sidr"><img class="hamburger-menu" src="/img/menu.svg"></a>
+        <a class="nav-right" href="http://exercism.io">Return to Exercism.io</a>
       </nav>
     </header>
 
