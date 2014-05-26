@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with CoffeeScript"
+title: "CoffeeScript"
 slug: "getting-started-with-coffeescript"
 category: "languages"
 ordinal: 2

@@ -1,3 +1,5 @@
+$max-width: 960px;
+
 .main,
 .footer {
   -webkit-transition: margin-left 150ms ease;
@@ -11,14 +13,20 @@ header {
 
 header nav {
   padding-left: 0;
+  .nav-right {
+    float: right;
+  }
 }
 
 nav {
   font-family: $sans-light;
   background-color: $white;
-  height: 4.5em;
+  height: 4em;
   padding: 20px 20px 20px 16%;
   z-index: 10;
+  .main-sidebar-inner {
+    margin: 0 20px;
+  }
 }
 
 .masthead {
@@ -27,7 +35,9 @@ nav {
 }
 
 .mast-contents {
-  padding: 35px 0 0 15%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 35px 0 0;
 }
 
 .mast-logo {
@@ -37,9 +47,6 @@ nav {
 .article-block {
   padding: 20px;
   border-bottom: 1px solid $border-grey;
-  h2 {
-    margin-bottom: 10px;
-  }
 }
 
   article:last-child {
@@ -47,5 +54,7 @@ nav {
   }
 
 .article-contents {
-  padding: 15px 0 20px 16%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-bottom:40px;
 }

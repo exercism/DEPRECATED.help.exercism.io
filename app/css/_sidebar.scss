@@ -3,7 +3,7 @@
   transition: width 150ms ease;
   background-color: $white;
   border: 1px solid $border-grey;
-  width: 16.25em;
+  width: 23%;
   position: fixed;
   top: 0;
   left: 0;
@@ -11,15 +11,23 @@
   bottom: 0;
   height: 100%;
   overflow-y: scroll;
+  font-size: 14px;
+  .toc_section {
+    padding-left: 15px;
+    list-style-type: none;
+  }
 }
 
 #simple-menu, .close {
   position: fixed;
-  top: 15;
+  top: 15px;
 }
 #simple-menu {
-  left: 20;
+  top: 20px;
+  left: 20px;
 }
 .close {
-  left: 10;
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }

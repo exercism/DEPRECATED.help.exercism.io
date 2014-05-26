@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Clojure"
+title: "Clojure"
 slug: "getting-started-with-clojure"
 category: "languages"
 ordinal: 1

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Perl 5"
+title: "Perl 5"
 slug: "getting-started-with-perl5"
 category: "languages"
 ordinal: 10

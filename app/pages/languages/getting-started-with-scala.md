@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Scala"
+title: "Scala"
 slug: "getting-started-with-scala"
 category: "languages"
 ordinal: 13
