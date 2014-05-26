@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Python"
+title: "Python"
 slug: "getting-started-with-python"
 category: "languages"
 ordinal: 11

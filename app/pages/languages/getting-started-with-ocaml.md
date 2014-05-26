@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with OCaml"
+title: "OCaml"
 slug: "getting-started-with-ocaml"
 category: "languages"
 ordinal: 9

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Go"
+title: "Go"
 slug: "getting-started-with-go"
 category: "languages"
 ordinal: 5

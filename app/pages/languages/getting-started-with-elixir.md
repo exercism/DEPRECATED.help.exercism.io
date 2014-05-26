@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Elixir"
+title: "Elixir"
 slug: "getting-started-with-elixir"
 category: "languages"
 ordinal: 4

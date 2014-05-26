@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Objective-C"
+title: "Objective-C"
 slug: "getting-started-with-objective-c"
 category: "languages"
 ordinal: 8

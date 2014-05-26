@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with JavaScript"
+title: "JavaScript"
 slug: "getting-started-with-javascript"
 category: "languages"
 ordinal: 7

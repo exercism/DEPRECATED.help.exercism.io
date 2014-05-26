@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Common Lisp"
+title: "Common Lisp"
 slug: "getting-started-with-lisp"
 category: "languages"
 ordinal: 2

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Haskell"
+title: "Haskell"
 slug: "getting-started-with-haskell"
 category: "languages"
 ordinal: 6

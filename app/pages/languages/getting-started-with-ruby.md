@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Ruby"
+title: "Ruby"
 slug: "getting-started-with-ruby"
 category: "languages"
 ordinal: 12
