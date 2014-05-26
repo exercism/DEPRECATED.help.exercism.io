@@ -12,28 +12,27 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0
+  margin-bottom: 15px
 }
 
 p {
   color: $type-grey;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 1.4;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 pre {
-  background: $white;
   display: inline-block;
-  width: 440px;
-  height: 35px;
+  background-color: #F1F1F1;
+  width: 100%;
+  min-height: 35px;
   border: 1px solid $border-grey;
   border-radius: 3px;
-  padding-top: 8px;
-  padding-left: 12px;
+  padding: 8px 12px;
   text-align: left;
-  margin: 15px 0 30px 0;
+  margin: 15px 0 15px 0;
   color: $charcoal;
   font-size: .875rem;
   -webkit-box-shadow: 0px 3px 2px #f7f7f7 inset;
@@ -43,6 +42,11 @@ pre {
 
 h1, h2, h3 {
   font-family: $sans-light;
+  letter-spacing: -.05rem;
+}
+
+h2, h3 {
+  color: darken($type-grey, 20%);
 }
 
 .headline {
@@ -71,4 +75,15 @@ h1, h2, h3 {
   font-family: $sans-light;
   font-size: 1.125em;
   font-weight: normal;
+}
+
+// article content
+
+.title {
+  color: $berry;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: square;
 }

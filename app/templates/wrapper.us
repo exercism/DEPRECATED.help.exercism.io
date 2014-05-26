@@ -23,7 +23,7 @@
         </p>
 
         <% site.categories.forEach(function(category){ %>
-        <a class="toc_title" href="#<%- category.slug %>"><%- category.title %></a>
+        <a class="toc_title"><%- category.title %></a>
         <ul class="toc_section">
           <% category.pages.forEach(function(page){ %>
           <li>- <a href="/<%- page.get('slug') %>.html"><%- page.title() %></a></li>
@@ -35,7 +35,7 @@
 
     <header>
       <nav>
-        <a id="simple-menu" href="#sidr"><img class="hamburger-menu" src="/img/menu.svg">Menu</a>
+        <a id="simple-menu" href="#sidr"><img class="hamburger-menu" src="/img/menu.svg"></a>
       </nav>
     </header>
 
