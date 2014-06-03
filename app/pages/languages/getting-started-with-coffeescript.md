@@ -7,12 +7,17 @@ ordinal: 2
 
 Make sure you have [Node.js installed](http://nodejs.org/) [via package manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
 
-Install jasmine-node and coffee:
+Install `jasmine-node` and `coffee`:
 
 ```bash
 $ npm install jasmine-node coffee -g
 ```
 
+Depending on your setup, you may need super user privileges to install an NPM module globally. This is the case if you've used the official installer linked to above. If NPM gives you an error saying you don't have access, add `sudo` to the command above:
+
+```bash
+$ sudo npm install jasmine-node coffee -g
+````
 
 Update your `PATH` to include the npm binaries by adding the following to either `~/.bash_profile` or `~/.zshrc`:
 
