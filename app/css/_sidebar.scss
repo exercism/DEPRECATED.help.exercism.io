@@ -35,3 +35,7 @@
 .sidr-open {
   width: 77% !important;
 }
+
+.sidr-open .hamburger-menu, .sidr-animating .hamburger-menu {
+  display: none;
+}
