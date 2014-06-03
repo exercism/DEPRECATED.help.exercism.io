@@ -5,7 +5,11 @@ category: "languages"
 ordinal: 7
 ---
 
-Install [Node.js](http://nodejs.org/) [via package manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
+**Windows and OS X users**: Install [Node.js](http://nodejs.org/) [via package manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager).
+
+**Linux users**: [Joyent maintains a document][linstall] that details how to get Node.js installed for a wide range of distributions and package managers.
+
+[linstall]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 
 Install `jasmine-node`:
 
