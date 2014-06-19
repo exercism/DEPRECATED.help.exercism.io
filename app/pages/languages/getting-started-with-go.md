@@ -7,6 +7,8 @@ ordinal: 5
 
 Follow the instructions for your system on the installation page at [golang.org](http://golang.org/doc/install).
 
+Exercism supports Go 1.2 and higher.
+
 ## Running tests
 
 Go exercises within your exercism project directory can be run by changing to the exercise directory, and running `go test`.
