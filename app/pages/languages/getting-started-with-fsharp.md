@@ -23,7 +23,6 @@ You can also create and share F# scripts in your browser at [Try F#](http://www.
 Can also try it out at [.NET Fiddle](https://dotnetfiddle.net/) which has the option of letting you bring in [NuGet](https://www.nuget.org/) packages.
 
 ## Running Tests
-
 After installing Visual Studio Express for Windows Desktop and the F# tools run Visual Studio and it will display a start screen.
 
 Click on "New Project" and you should see an entry for Visual F# and click on "Class Library".
@@ -47,6 +46,11 @@ If you installed NUnit manually the runner will be in the ```Program Files (x86)
 Once you have been able to compile the code it will create a DLL in the ```\bin\Debug``` folder of your project. In the NUnit runner, select "Open Project" and select the DLL that was created from compiling. This will load all the tests and allow you to run them.
 
 Now you can have fun learning F# and run your code against the tests!
+
+## Linting
+F# projects (.fsproj) can be linted for further code analysis via a third party tool - [FSharpLint](https://github.com/duckmatt/FSharpLint).
+
+To use this, just follow the directions from the wiki page to use the [command line tool](https://github.com/duckmatt/FSharpLint/wiki/Console-Application).
 
 ## Recommended Learning Resources
 
