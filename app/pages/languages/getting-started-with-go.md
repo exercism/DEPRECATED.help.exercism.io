@@ -18,6 +18,10 @@ $ cd exercism/project/directory/go/bob
 $ go test
 ```
 
+### Running benchmarks
+
+Most exercises contain benchmarks, that you can use to determine how changes to your solution affect its performance. To run the benchmarks for an exercise use the command `go test -bench .` inside the exercise directory.
+
 ## Go fmt
 
 Please run [`go fmt`](http://blog.golang.org/go-fmt-your-code) on your code before submitting it.
@@ -51,7 +55,11 @@ To find problems with concurrent programs, try `go test -race`.
 
 ### Cleaning up your code
 
-Let's say that again, run `go fmt`.  You might also look at `go vet`, which warns about potential problems in your code.  For an exercise that involves concurrency, try `go test -race` even if passes its tests.  Read and heed [frequent comments from code reviews](https://code.google.com/p/go-wiki/wiki/CodeReviewComments) (aka nitpicking.)
+Let's say that again, run `go fmt`.
+[Golint](https://github.com/golang/lint) can inform you about style issues in your code that `go fmt` won't catch.
+You might also look at `go vet`, which warns about potential problems in your code.
+For an exercise that involves concurrency, try `go test -race` even if passes its tests.
+Read and heed [frequent comments from code reviews](https://code.google.com/p/go-wiki/wiki/CodeReviewComments) (aka nitpicking.)
 
 ### Bonus tests
 
