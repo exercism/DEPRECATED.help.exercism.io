@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with F#"
+title: "F#"
 slug: "getting-started-with-fsharp"
 category: "languages"
 ordinal: 14
