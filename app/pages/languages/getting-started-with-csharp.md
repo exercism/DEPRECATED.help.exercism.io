@@ -1,3 +1,10 @@
+---
+title: "C#"
+slug: "getting-started-with-csharp"
+category: "languages"
+ordinal: 3
+---
+
 ## Installing C&#35;
 
 ### Windows
