@@ -2,6 +2,10 @@
 
 Everyone gets stuck on something or just needs to ask a quick question. Whether it's how to use the site or on a particular exercise there are plenty of people willing to help!
 
+Below are some useful links on how to ask questions.
+[Smart Questions](http://www.catb.org/esr/faqs/smart-questions.html)
+[Try Then Ask](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html)
+
 ### IRC
 
 There is an IRC room setup where you can go and ask questions or even help out others yourself.
