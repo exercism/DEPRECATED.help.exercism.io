@@ -32,6 +32,7 @@ Get [Erlang R16B](http://www.erlang.org/download.html), then [download a precomp
 ## Running tests
 
 ```bash
+$ elixirc bob.exs
 $ elixir bob_test.exs
 ```
 
