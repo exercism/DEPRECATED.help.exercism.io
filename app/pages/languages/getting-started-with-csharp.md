@@ -20,26 +20,26 @@ This will include the IDE and compiler for C#.
 
 Once installed and started, click on "Create New Project" (alternatively, you can go to File->New->New Project).
 
-![New Project](/app//img/help/setup/csharp/newProject.png)
+![New Project](/img/setup/csharp/newProject.png)
 
 Choose what language and project type (Visual C# and Class Library). Also name your project to whatever you'd like.
 
-![Create Project](/app//img/help/setup/csharp/createNewProject.png)
+![Create Project](/img/setup/csharp/createNewProject.png)
 
 Once created, feel free to drag and drop the C# Exercism folders into the project.
 
-![Drag and Drop Folders](/app/img/help/setup/csharp/dragDropFolders.png)
+![Drag and Drop Folders](/img/setup/csharp/dragDropFolders.png)
 
 In order to compile, get the [NUnit](http://nunit.org/) assembly referenced for the unit tests. This can be done via [NuGet](http://www.nuget.org/) - a package manager for Visual Studio. The best packages is to get the base [NUnit]() and the [NUnit.Runners](https://www.nuget.org/packages/NUnit.Runners/)
 package since it includes the assemblies needed and a GUI test runner.
 
-![Nuget](/app//img/help/setup/csharp/nugetMenu.png)
+![Nuget](/img/setup/csharp/nugetMenu.png)
 
 Two options to use Nuget - the NuGet manager or through the Package Manager Console.
 
 The manager is the easiest way to get started.
 
-![Nuget Manager](/app//img/help/setup/csharp/nugetManageNunitRunner.png)
+![Nuget Manager](/img/setup/csharp/nugetManageNunitRunner.png)
 
 The project should now be able to compile.
 
@@ -93,11 +93,11 @@ If you installed the NUnit runner through NuGet, the runner will be located in t
 
 If you installed NUnit manually the runner will be in the ```Program Files (x86)\NUnit(version number)\bin``` folder.
 
-![NUnit Runner](/app//img/help/setup/csharp/nUnitRunner.png)
+![NUnit Runner](/img/setup/csharp/nUnitRunner.png)
 
 Once you have been able to compile the code it will create a DLL in the ```\bin\Debug``` folder of your project. In the NUnit runner, select "Open Project" and select the DLL that was created from compiling. This will load all the tests and allow you to run them.
 
-![NUnit Runner Execute Tests](/app//img/help/setup/csharp/nUnitExecuteTests.png)
+![NUnit Runner Execute Tests](/img/setup/csharp/nUnitExecuteTests.png)
 
 The NUnit runner will automatically reload the DLL if it has been updated.
 
