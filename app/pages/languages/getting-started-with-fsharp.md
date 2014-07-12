@@ -27,13 +27,13 @@ After installing Visual Studio Express for Windows Desktop and the F# tools run 
 
 Click on "New Project" and you should see an entry for Visual F# and click on "Class Library".
 
-![New Project](/app/img/setup/fsharp/newProject.png)
+![New Project](/img/setup/fsharp/newProject.png)
 
 Install [NUnit](http://nunit.org/index.php?p=download) via NuGet package manager with the NUnit.Runners package. This will add the reference to the project.
 
-![NuGet Package Manager](/app/img/setup/fsharp/manageNugetPackages.png)
+![NuGet Package Manager](/img/setup/fsharp/manageNugetPackages.png)
 
-![Installing NUnit](/app/img/setup/fsharp/installingNunit.png)
+![Installing NUnit](/img/setup/fsharp/installingNunit.png)
 
 Drag and drop the test file of your chosen exercise into the project in Visual Studio. You can create your own Example file (or drag and drop the one included) and give the exercise a try.
 
