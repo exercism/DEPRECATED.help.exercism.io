@@ -32,7 +32,7 @@ Get [Erlang OTP 17.1](http://www.erlang.org/download.html)
 
 ```bash
 $ erlc bob*.erl
-$ erl -noshell -eval "eunit:test(bob, [verbose])" -s init stop
+$ erl -noshell -eval "eunit:test(bob_test, [verbose])" -s init stop
 ```
 
 ## Recommended Learning Resources
