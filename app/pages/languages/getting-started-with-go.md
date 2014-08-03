@@ -14,7 +14,7 @@ Exercism supports Go 1.2 and higher.
 Go exercises within your exercism project directory can be run by changing to the exercise directory, and running `go test`.
 
 ```bash
-$ cd exercism/project/directory/go/bob
+$ cd exercism/project/directory/go/leap
 $ go test
 ```
 
