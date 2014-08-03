@@ -16,6 +16,12 @@ You will be asked for your API key, which can be found in your account settings.
 To fetch your current exercises, issue the command:
 
 ```bash
+$ exercism fetch [language]
+```
+
+Or you can fetch all languages:
+
+```bash
 $ exercism fetch
 ```
 
@@ -29,6 +35,8 @@ To start working on an exercise, go find the downloaded files.
 $ cd path/to/exercism/project # or whatever
 ```
 
-You can work on them using your usual editor, tools, and environment.
+You can work on them using your usual editor, tools, and environment. Read the <a class="link-side-menu" href="#sidr">getting started guide</a> of your language to find out how to run the tests.
 
 As soon as you have submitted code to an exercise, `exercism fetch` will provide you with access to the next exercise.
+
+<a class="secondary-button" href="submitting-exercises.html">Submitting Exercises</a>

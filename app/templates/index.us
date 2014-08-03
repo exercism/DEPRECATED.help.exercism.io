@@ -7,3 +7,5 @@
 <p>You can also send me email at <a href="mailto:<%= site.email %>"><%= site.email %></a>.</p>
 
 <p>The documentation is all <a href="https://github.com/exercism/docs">Open Source</a>, and improvements are very welcome.</p>
+
+<a class="link-side-menu main-button" href="#sidr">Help Menu</a>
