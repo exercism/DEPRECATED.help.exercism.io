@@ -26,3 +26,5 @@ Then you would submit the code with the following command:
 ```bash
 $ exercism submit leap.go
 ```
+
+<a class="secondary-button" href="nitpicking-code.html">Nitpicking Code</a>

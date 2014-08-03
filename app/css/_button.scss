@@ -1,0 +1,26 @@
+
+.main-button, .secondary-button {
+    -moz-appearance: none;
+    border: medium none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.7rem;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+}
+
+.main-button {
+    background: none repeat scroll 0 0 #d81d4e;
+    box-shadow: 0 4px 0 0 #ccc;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.secondary-button {
+    background: none repeat scroll 0 0 #ccc;
+    box-shadow: 0 4px 0 0 #aaa;
+    color: #555;
+    font-size: 1.2rem;
+}

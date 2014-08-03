@@ -36,3 +36,6 @@ If you get stuck, post <a href="https://github.com/exercism/exercism.io/issues/n
 
 ### More information
 See the [CLI site](http://cli.exercism.io/).
+
+
+<a class="secondary-button" href="fetching-exercises.html">Fetching Exercises</a>
