@@ -78,7 +78,7 @@ Notice the first dot.
 Go ahead and check what your path is now by opening a command-line prompt and typing:
 
 ```plain
-$ echo %PATH%
+> echo %PATH%
 ```
 
 It might look something like this:
@@ -101,7 +101,7 @@ You will need to put the `exercism.exe` command-line client in a location that y
 
 It doesn't have to be a place that your computer already knows about. You can create a new directory and tell the computer that it should look there.
 
-To add a directory to your path, open the System control panel applet, then select "Advanced system settings", then click the "Environment Variables..." button.  Select the `PATH` environment variable in "User variables" if you want to change the setting just for your account or "System variables" if you want to change the setting for all accounts.  Click the "Edit..." button and change the value to include the location of your `exercism.exe` client.
+To add a directory to your path, open the System control panel applet, then select "Advanced system settings", then click the "Environment Variables..." button.  Select the `PATH` environment variable in "User variables" if you want to change the setting just for your account or "System variables" if you want to change the setting for all accounts.  Click the "Edit..." button and change the value to include the location of your `exercism.exe` client.  Don't forget the separating `;` character between path entries.
 
 ## Still confused?
 
