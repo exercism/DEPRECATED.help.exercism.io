@@ -4,6 +4,13 @@ slug: "getting-started-with-cpp"
 category: "languages"
 ordinal: 310
 ---
+# Submitting Your Work for Peer Review
+
+**Important!**  Currently exercism only supports submitting a single
+file for each exercise.  Since C++ can mix implementation between the
+header file (`.h`) and the source file (`.cpp`), put your entire
+implementation in one or the other and submit that one file for each
+exercise.
 
 # Building and Running the Tests
 
