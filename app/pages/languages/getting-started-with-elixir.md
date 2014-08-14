@@ -2,7 +2,7 @@
 title: "Elixir"
 slug: "getting-started-with-elixir"
 category: "languages"
-ordinal: 4
+ordinal: 500
 ---
 
 ### Homebrew for Mac OS X

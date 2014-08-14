@@ -2,7 +2,7 @@
 title: "Scala"
 slug: "getting-started-with-scala"
 category: "languages"
-ordinal: 13
+ordinal: 1900
 ---
 
 ## Installing [Scala](http://www.scala-lang.org)

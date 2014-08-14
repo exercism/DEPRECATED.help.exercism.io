@@ -2,7 +2,7 @@
 title: "C#"
 slug: "getting-started-with-csharp"
 category: "languages"
-ordinal: 3
+ordinal: 300
 ---
 
 ## Installing C&#35;

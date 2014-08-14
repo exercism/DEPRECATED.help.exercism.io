@@ -2,7 +2,7 @@
 title: "CoffeeScript"
 slug: "getting-started-with-coffeescript"
 category: "languages"
-ordinal: 2
+ordinal: 330
 ---
 
 **Windows and OS X users**: Install [Node.js](http://nodejs.org/) [via package manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager).

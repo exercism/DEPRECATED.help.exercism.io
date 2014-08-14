@@ -2,7 +2,7 @@
 title: "Common Lisp"
 slug: "getting-started-with-lisp"
 category: "languages"
-ordinal: 2
+ordinal: 340
 ---
 
 Install a lisp implementation such as SBCL or CLisp. Both can be installed via Homebrew on Mac OS X.

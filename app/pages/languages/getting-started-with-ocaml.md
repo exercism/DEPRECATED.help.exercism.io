@@ -2,7 +2,7 @@
 title: "OCaml"
 slug: "getting-started-with-ocaml"
 category: "languages"
-ordinal: 9
+ordinal: 1510
 ---
 
 Follow the [installation instructions](https://github.com/realworldocaml/book/wiki/Installation-Instructions) of the excellent [Real World OCaml](https://realworldocaml.org/) book. Afterwards be sure to install [OUnit](http://ounit.forge.ocamlcore.org/) using

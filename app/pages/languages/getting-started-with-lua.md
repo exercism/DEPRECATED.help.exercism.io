@@ -2,7 +2,7 @@
 title: "lua"
 slug: "getting-started-with-lua"
 category: "languages"
-ordinal: 14
+ordinal: 1200
 ---
 
 ### Getting started

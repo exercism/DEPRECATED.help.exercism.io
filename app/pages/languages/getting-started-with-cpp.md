@@ -1,3 +1,10 @@
+---
+title: "C++"
+slug: "getting-started-with-cpp"
+category: "languages"
+ordinal: 310
+---
+
 # Building and Running the Tests
 
 The C++ language track assumes that you have the appropriate development tools

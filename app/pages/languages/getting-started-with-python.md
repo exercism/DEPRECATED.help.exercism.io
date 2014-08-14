@@ -2,7 +2,7 @@
 title: "Python"
 slug: "getting-started-with-python"
 category: "languages"
-ordinal: 11
+ordinal: 1610
 ---
 
 If Python isn't already available on your system follow the instructions at [the Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/#getting-started) to install Python on your computer.
