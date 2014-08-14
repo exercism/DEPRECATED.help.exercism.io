@@ -118,6 +118,22 @@ some examples are:
 * Windows with Visual Studio 2013: `cmake -G "Visual Studio 12" .`
 * MacOS with Xcode: `cmake -G Xcode`, or with make: `cmake -G "Unix Makefiles" .`
 
+If you get complaints from CMake about not being able to find Boost, you
+need to add additional arguments to tell CMake where to find it by
+setting the `BOOST_INCLUDEDIR` variable on the command-line.  Here is an
+example using the Visual Studio 2013 generator:
+
+```
+> cmake -G "Visual Studio 12" -DBOOST_INCLUDEDIR:PATH=D:/Code/boost/boost_1_55_0 .
+```
+
+**Note:** Path locations passed to CMake always use slash (`/`) as the
+directory separator, even on Windows.
+
+Since you will be running CMake to create the build instructions for each
+assignment, you might want to create a bash script (Linux/MacOS) or
+batch file (Windows) for this command.
+
 Once the build environment has been created by CMake, you can build your
 code using the appropriate command for your environment:
 * Linux with make: `make`
