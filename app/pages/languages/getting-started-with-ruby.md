@@ -2,7 +2,7 @@
 title: "Ruby"
 slug: "getting-started-with-ruby"
 category: "languages"
-ordinal: 12
+ordinal: 1800
 ---
 
 ## Installation

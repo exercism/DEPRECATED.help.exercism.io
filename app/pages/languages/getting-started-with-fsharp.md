@@ -2,7 +2,7 @@
 title: "F#"
 slug: "getting-started-with-fsharp"
 category: "languages"
-ordinal: 14
+ordinal: 600
 ---
 
 [F#](http://www.tryfsharp.org/Explore) is a strongly-typed, functional language that is part of Microsoft's .NET language stack.

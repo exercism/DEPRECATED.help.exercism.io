@@ -2,7 +2,7 @@
 title: "Clojure"
 slug: "getting-started-with-clojure"
 category: "languages"
-ordinal: 1
+ordinal: 320
 ---
 
 ## Installing Leiningen

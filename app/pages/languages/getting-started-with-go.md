@@ -2,7 +2,7 @@
 title: "Go"
 slug: "getting-started-with-go"
 category: "languages"
-ordinal: 5
+ordinal: 700
 ---
 
 Follow the instructions for your system on the installation page at [golang.org](http://golang.org/doc/install).

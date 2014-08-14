@@ -2,7 +2,7 @@
 title: "Objective-C"
 slug: "getting-started-with-objective-c"
 category: "languages"
-ordinal: 8
+ordinal: 1500
 ---
 
 ## Installing Objective-C

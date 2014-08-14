@@ -2,7 +2,7 @@
 title: "Swift"
 slug: "getting-started-with-swift"
 category: "languages"
-ordinal: 100
+ordinal: 1910
 ---
 
 ### Beta Warning

@@ -2,7 +2,7 @@
 title: "Erlang"
 slug: "getting-started-with-erlang"
 category: "languages"
-ordinal: 5
+ordinal: 550
 ---
 
 ### Homebrew for Mac OS X

@@ -2,7 +2,7 @@
 title: "Perl 5"
 slug: "getting-started-with-perl5"
 category: "languages"
-ordinal: 10
+ordinal: 1600
 ---
 
 ## Installation
