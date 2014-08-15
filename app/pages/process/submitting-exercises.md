@@ -27,4 +27,9 @@ Then you would submit the code with the following command:
 $ exercism submit leap.go
 ```
 
+If you get a better idea of how to express your code, perhaps coming from
+some "nitpick" feedback, you can submit your code again using the same
+command to exercism.  Each version of your submitted code for an exercise
+is visible on the web site.
+
 <a class="secondary-button" href="nitpicking-code.html">Nitpicking Code</a>
