@@ -7,7 +7,7 @@ ordinal: 4
 
 **A practical guide to providing better feedback on solutions to exercises.**
 
-> You will not see the Nitpick menu until you have finished at least one exercise. You will only have the opportunity to nitpick exercises you have finished. Finishing an exercise is not the same thing as submitting it -- you need to go to your exercise page and indicate that you are done and don't want any more feedback to mark it as finished.
+> You will not see the Nitpick menu until you have submitted at least one exercise solution. After submitting a solution, you will have the opportunity to view and nitpick solutions sent by others for the same exercise.
 
 When reviewing exercism submissions, it is possible and encouraged to share advice and insight on the style and approach of a given implementation.
 
@@ -21,7 +21,7 @@ In most cases, our idea of ideal code is simple, readable, maintainable, and mod
 
 Consider it an opportunity to discuss different coding practices and the value they provide in the context of crafting better software.
 
-Please note that _good job_ or _great work_ are not positive, constructive feedback. If there is something you like about a solution, be specific when describing it.
+Please note that _good job_ or _great work_ are not positive, constructive feedback. If there is something you like about a solution, be specific when describing it. When there is no more feedback to give, feel free to compliment others with a tap on the "Looks great!" button.
 
 When leaving nitpicks, please remember that beginners do not always have the same confidence level as more experienced developers. It is therefore important to be courteous and considerate. Strive to be clear in your explanations and give users a chance to arrive at their own improvements. Might the Socratic Method be a suitable approach?
 
