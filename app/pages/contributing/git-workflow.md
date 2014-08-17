@@ -9,7 +9,7 @@ Contributing to Open Source can be intimidating. There are messy human relations
 
 Beyond that, the tools can be their own barrier to contributing. Git in particular has a steep learning curve.
 
-If you're concerned that you haven't done it right--don't worry. Submit your pull request, and we'll help you get the details sorted out.
+If you're concerned that you haven't done it right, don't worry. Submit your pull request, and we'll help you get the details sorted out.
 
 We're using the `exercism.io` repository as an example here, but it applies to any of the exercism repositories.
 
@@ -54,7 +54,7 @@ Commit messages are communication and documentation. They're a log of more than 
 
 The longer a project is active, the more people involved, the larger the codebase, the more important it is to have good commit messages.
 
-In the `exercism.io` repository itself, the commit history is messy and confusing—that's OK. It's a prototype, we'll live with it. We're trying to improve going forward, however.
+In the `exercism.io` repository itself, the commit history is messy and confusing that's OK. It's a prototype, we'll live with it. We're trying to improve going forward, however.
 
 In the `x-api` and language repositories we're trying to keep it really clean in terms of commit messages.
 
