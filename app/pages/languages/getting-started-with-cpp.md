@@ -12,6 +12,26 @@ header file (`.h`) and the source file (`.cpp`), put your entire
 implementation in one or the other and submit that one file for each
 exercise.
 
+# Learning C++ From Ground Zero
+
+C++ is a language with a broad, expressive syntax that supports several
+different programming styles: procedural, object-oriented, functional,
+and generic as well as combinations of all of those together in the same
+program.  This language track attempts to introduce problems in
+gradually increasing difficulty.  However, elements of the language
+syntax are best introduced in a form other than as a series of exercises.
+
+If you are brand new to the language, you may want to consult these
+resources first:
+
+* [Learn C++](http://www.learncpp.com/)
+* [C++ Koans](https://github.com/torbjoernk/CppKoans)
+
+[Coliru](http://coliru.stacked-crooked.com/) is a simple web form
+interface to a C++ compiler that will let you try out small programs.
+Sometimes this can be an easier way to perform a quick experiment than
+building something locally in an integrated development environment.
+
 # Building and Running the Tests
 
 The C++ language track assumes that you have the appropriate development tools
