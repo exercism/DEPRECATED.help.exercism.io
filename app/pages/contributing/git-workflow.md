@@ -166,5 +166,6 @@ If you're completely new to git, there are a number of resources that can help g
 If you've been using git for a while, but it feels like repeating magical incantations (while praying that nothing goes wrong), then you may find these helpful:
 
 * [Explain Git with D3](http://www.wei-wang.com/ExplainGitWithD3) - interactive site
+* [Git Branching Tutorial](http://pcottle.github.io/learnGitBranching/) - interactive tutorial, very visual
 * [Git for Ages 4 and Up](https://www.youtube.com/watch?v=1ffBJ4sVUb4) - video of a presentation/demo
 * [Think Like a Git](http://think-like-a-git.net/)
