@@ -5,13 +5,15 @@ category: "process"
 ordinal: 2
 ---
 
-First log in to the command-line client:
+First configure the command-line client:
 
 ```bash
-$ exercism login
+$ exercism configure --key=YOUR_API_KEY --dir=/path/to/exercises
 ```
 
-You will be asked for your API key, which can be found in your account settings.
+Your API key can be found in your account settings.
+
+The `dir` is optional. If you leave it off, an exercism directory will be created for you in your home directory the first time you fetch problems from the site.
 
 To fetch your current exercises, issue the command:
 
