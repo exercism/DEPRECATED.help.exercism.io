@@ -31,7 +31,7 @@ What follows are instructions that work for installing exercism on Windows 7. In
 
 #### Downloading the appropriate files
 If you don't already have 7-Zip installed, download and install it from http://www.7-zip.org/
-Download the appropriate exercism Windows patch release (`exercism-windows-386.tgz` for 32-bit machines or `exercism-windows-amd64.tgz` for 64-bit machines) from [here](https://github.com/exercism/cli/releases/latest)
+Download the appropriate exercism Windows patch release (`exercism-windows-32bit.tgz` for 32-bit machines or `exercism-windows-64bit.tgz` for 64-bit machines) from [here](https://github.com/exercism/cli/releases/latest)
 
 #### Extracting the executable file
 1. Open the downloaded `exercism-windows-*.tgz` file using 7-Zip
