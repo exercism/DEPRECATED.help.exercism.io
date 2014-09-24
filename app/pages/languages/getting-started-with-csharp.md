@@ -43,6 +43,12 @@ The manager is the easiest way to get started.
 
 The project should now be able to compile.
 
+To start implementing the exercise, in Visual Studio, right click on where you want the file to go to and go to `Add` -> `Class`. Name it what you'd like.
+
+![New Item](/img/setup/csharp/addNewClass.png)
+
+Now you can start coding!
+
 ##### With the command line compiler
 The .cs files can also be compiled without Visual Studio. Get the latest version of
 [.NET installed](http://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx) and there will be an executable called csc.exe.
