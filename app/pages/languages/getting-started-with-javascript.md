@@ -50,9 +50,12 @@ You can find more information about modules in the [node documentation](http://n
 
 ## Recommended Learning Resources
 
-Exercism provides exercises and feedback but can be difficult to jump into for those learning JavaScript for the first time. These resources can help you get started:
+* [Eloquent JavaScript: A Modern Introduction to Programming (2nd Ed.)](http://eloquentjavascript.net)
+* [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+* [Crockford on JavaScript](http://yuiblog.com/crockford/)
+* [idiomatic.js: Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js)
 
-* [Mozilla JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+## Recommended References
+
 * [Mozilla JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-* [Mozilla Recommended Resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [StackOverflow](http://stackoverflow.com/)
+
