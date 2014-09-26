@@ -36,7 +36,7 @@ If you don't agree with one of its points, that's a good topic for a discussion 
 If you'd rather have a tool take care of your style issues, take a look at [autopep8](https://github.com/hhatto/autopep8)!
 Run `autopep8 -d mycode.py` to get a diff of the changes it proposes and `autopep8 -i mycode.py` to format the code inplace!
 
-## Recommended learning ressources
+## Recommended learning resources
 
 * [The Python Tutorial](https://docs.python.org/3/tutorial/)
 * [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
