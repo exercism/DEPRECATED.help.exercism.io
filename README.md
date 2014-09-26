@@ -7,9 +7,11 @@ Borrowed heavily from [lineman-docs](https://github.com/linemanjs/lineman-docs).
 ## Getting Started
 
 1. Clone this repository.
-2. Run `npm install -g lineman` if you haven't already installed [lineman.js](https://github.com/linemanjs/lineman#install).
-3. Run `npm install` to install required project dependencies.
-4. Run `lineman run` while you work on writing markdown files. Visit the site on [localhost:8000](http://localhost:8000)
+* Run `gem install bundler` if you haven't already installed [bundler](http://bundler.io)
+* Run `npm install -g lineman` if you haven't already installed [lineman.js](https://github.com/linemanjs/lineman#install).
+* Run `bundle install` to install the sass dependency.
+* Run `npm install` to install required project dependencies.
+* Run `lineman run` while you work on writing markdown files. Visit the site on [localhost:8000](http://localhost:8000)
 
 The documentation topics live in `app/pages/**/*.md`. Lineman regenerates the site on save, so you don't need to restart the server.
 
