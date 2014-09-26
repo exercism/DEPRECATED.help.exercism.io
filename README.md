@@ -7,7 +7,7 @@ Borrowed heavily from [lineman-docs](https://github.com/linemanjs/lineman-docs).
 ## Getting Started
 
 1. Clone this repository.
-2. [Install lineman.js](https://github.com/linemanjs/lineman#install) if you haven't already.
+2. Run `npm install -g lineman` if you haven't already installed [lineman.js](https://github.com/linemanjs/lineman#install).
 3. Run `npm install` to install required project dependencies.
 4. Run `lineman run` while you work on writing markdown files. Visit the site on [localhost:8000](http://localhost:8000)
 
