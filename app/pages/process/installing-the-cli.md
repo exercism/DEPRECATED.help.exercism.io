@@ -42,14 +42,19 @@ Download the appropriate exercism Windows patch release (`exercism-windows-32bit
 1. Exit 7-Zip
 
 #### Adding the executable's directory to PATH
+1. **WARNING:** You are about to update your "PATH" user or system variable. You must carefully follow the instructions below, as deleting any existing paths could have serious implications for your Windows installation. This is not difficult, just make sure you don't rush through this stage and miss a step.
 1. Open the Windows Control Panel by clicking on "Start" and selecting "Control Panel" from the list on the right
 1. Select "System"
 1. Select "Advanced system settings"
 1. Select "Environment Variables..."
-1. In the upper list "User variables for <your username>" select "PATH" and click on "Edit..."
-1. **WARNING:** Do not start typing as the current "PATH" value is selected and will be deleted when you type. If this warning is too late, click on "Cancel" and go back to the previous step
-1. Press the "End" key to take you to the end of the value
-1. Type in a semi-colon ";" followed by the path to where you have placed `exercism.exe` (you can paste in the location if you open the exercism folder in Explorer, click in the location bar at the top and copy the text)
+1. At this point you have the option of making exercism available just for the current user or for every user:
+	1. **Only for the current user:** In the upper list, "User variables for \<your username\>", find and select "PATH" and click on "Edit...". If you can't find "PATH", click on "New..." and type "PATH" into "Variable name"
+	1. **For every user:** In the lower list, "System variables", find and select "Path" and click on "Edit..."
+1. **WARNING:** If you are adding a path to a previously existing list:
+	1. **DO NOT** start typing, as the current "PATH"/"Path" value is selected and will be deleted when you type. If this warning is too late, **YOU MUST** click on "Cancel" and go back to the previous step
+	1. Press the "End" key to take you to the end of the value
+	1. type in a semi-colon ";"
+1. Type in the path to where you have placed `exercism.exe` (you can paste in the location if you open the exercism folder in Explorer, click in the location bar at the top and copy the text)
 1. **NOTE:** If you can't remember where you have placed the file, search for "exercism.exe" in Explorer, open the folder by right-clicking on `exercism.exe` and clicking on "Open file location", then follow the instructions in the previous step to copy and paste the location into the PATH value
 
 #### Running exercism
