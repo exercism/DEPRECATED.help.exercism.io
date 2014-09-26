@@ -13,6 +13,8 @@ Borrowed heavily from [lineman-docs](https://github.com/linemanjs/lineman-docs).
 * Run `npm install` to install required project dependencies.
 * Run `lineman run` while you work on writing markdown files. Visit the site on [localhost:8000](http://localhost:8000)
 
+If you need some more documentation on getting started with lineman, there's a [great tutorial](http://lineman-install.herokuapp.com/) for creating a "Hello, world" app.
+
 The documentation topics live in `app/pages/**/*.md`. Lineman regenerates the site on save, so you don't need to restart the server.
 
 ## Creating New Topics
