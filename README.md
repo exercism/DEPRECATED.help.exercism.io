@@ -7,7 +7,7 @@ Borrowed heavily from [lineman-docs](https://github.com/linemanjs/lineman-docs).
 ## Getting Started
 
 1. Clone this repository.
-* Run `gem install bundler` if you haven't already installed [bundler](http://bundler.io)
+* Run `gem install bundler` if you haven't already installed [bundler](http://bundler.io).
 * Run `npm install -g lineman` if you haven't already installed [lineman.js](https://github.com/linemanjs/lineman#install).
 * Run `bundle install` to install the sass dependency.
 * Run `npm install` to install required project dependencies.
