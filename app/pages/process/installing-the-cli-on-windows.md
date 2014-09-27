@@ -5,23 +5,35 @@ category: "process"
 ordinal: 2
 ---
 
-What follows are instructions that work for installing exercism on Windows 7. Instructions for other versions of Windows may differ slightly, but the principle will be the same.
+# Installing the CLI on Windows
+
+What follows are instructions that work for installing exercism on Windows 7 or Windows 8. Instructions for other versions of Windows may differ slightly, but the principle will be the same.
 
 **NOTE:** You will need Admin privileges for some of the steps detailed below. If you don't have them, get someone with those privileges to do the install for you.
 
-## Downloading the appropriate files
-Download the appropriate exercism Windows patch release (`exercism-windows-32bit.zip` for 32-bit machines or `exercism-windows-64bit.zip` for 64-bit machines) from [here](https://github.com/exercism/cli/releases/latest)
+## Before you start
+Before you download exercism you will need to determine whether you are running a 32-bit or 64-bit version of Windows. You can do this as follows:
 
-## Extracting the executable file
-1. Right-click on the downloaded `exercism-windows-*.zip` file and select "Extract All..." from the context menu.  Windows displays an extraction dialog.
-1. Click the "Browse..." button and navigate to the folder where you want exercism placed (you can create a new folder or two where you are during this process if you like by clicking on "Make New Folder" and giving it an appropriate name) then click on "OK"
+1. Open the Windows Control Panel
+	1. In Windows 7 this can be accomplished by clicking on "Start" and selecting "Control Panel" from the list on the right
+	1. In Windows 8 this can be accomplished by right clicking on "Start" and selecting "Control Panel" from the menu that appears
+1. Select "System"
+1. A reasonable amount of information is displayed, including the "System type". This will tell you whether you have a 32-bit or 64-bit Operating System and whether you have a 32-bit or 64-bit processor
+1. **NOTE 1** It is possible to install a 32-bit version of Windows on a 64-bit processor. You need to take note of the version of the Operating System, not the processor
+1. **NOTE 2** Keep this System window open as you will make use of it further down
+
+## Downloading the appropriate file
+Determine which is the appropriate exercism Windows patch release for your Operating System (`exercism-windows-32bit.zip` for a 32-bit Operating System or `exercism-windows-64bit.zip` for a 64-bit Operating System) and download it from [here](https://github.com/exercism/cli/releases/latest)
+
+## Copying `exercism.exe` to its own folder
+1. Open File Explorer and create a new folder where you want to place `exercism.exe` (e.g. `C:\Exercism` or `C:\Program Files\Exercism`)
+1. Open the downloaded `exercism-windows-*.zip` file, select `exercism.exe` and copy it into the folder you created in the previous step
 
 ## Adding the executable's directory to PATH
-1. **WARNING:** You are about to update your "PATH" user or system variable. You must carefully follow the instructions below, as deleting any existing paths could have serious implications for your Windows installation. This is not difficult, just make sure you don't rush through this stage and miss a step.
-1. Open the Windows Control Panel by clicking on "Start" and selecting "Control Panel" from the list on the right
-1. Select "System"
-1. Select "Advanced system settings"
-1. Select "Environment Variables..."
+1. **WARNING:** You are about to update your "PATH" user or system variable. You must carefully follow the instructions below, as deleting any existing paths could have serious implications for your Windows installation. This is not difficult, just make sure you don't rush through this stage and miss a step. If you are worried about making the change below, I suggest you choose to make exercism available just for you as the impact of any mistake should be significantly less.
+1. In the System window left open in "Before you start", Select "Advanced system settings"
+1. If you are asked "Do you want to allow the following program to make changes to this computer?" click on "Yes"
+1. Click on "Environment Variables..."
 1. At this point you have the option of making exercism available just for the current user or for every user:
 	1. **Only for the current user:** In the upper list, "User variables for \<your username\>", find and select "PATH" and click on "Edit...". If you can't find "PATH", click on "New..." and type "PATH" into "Variable name"
 	1. **For every user:** In the lower list, "System variables", find and select "Path" and click on "Edit..."
