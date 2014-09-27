@@ -1,3 +1,10 @@
+---
+title: "Getting Help"
+slug: "getting-help"
+category: "topics"
+ordinal: 20
+---
+
 ## Stuck and need some help?
 
 Everyone gets stuck on something or just needs to ask a quick question. Whether it's how to use the site or on a particular exercise there are plenty of people willing to help!
@@ -18,11 +25,15 @@ The room is ```#exercism``` and there's already a few folks waiting to help out!
 
 ### ScreenHero
 
-If you need help and feel like it would be best to do a screen sharing session, [ScreenHero](http://screenhero.com/) has you covered. Feel free to ask through GitHub or IRC if anyone can help through a ScreenHero session.
+If you need help and feel like it would be best to do a screen sharing session, [ScreenHero](http://screenhero.com/) has you covered. Feel free to ask through IRC if anyone can help through a ScreenHero session.
 
 ### Google Hangouts
 
 There has been some talk of having some Google Hangouts for folks to get together and talk about their code. Look for this in the near future!
+
+### StackOverflow
+
+Ask your question and tag it with "exercism" and, if relevant, the language that you're stuck in.
 
 ### GitHub Issues
 

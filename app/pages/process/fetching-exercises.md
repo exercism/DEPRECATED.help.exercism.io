@@ -2,7 +2,7 @@
 title: "Fetching Exercises"
 slug: "fetching-exercises"
 category: "process"
-ordinal: 2
+ordinal: 10
 ---
 
 First configure the command-line client:
