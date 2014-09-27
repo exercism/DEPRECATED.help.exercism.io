@@ -31,5 +31,7 @@ For more options and more detailed instructions, see the [installing the CLI for
 
 ## Windows
 
-It's a bit trickier to figure out what architecture you have when you're using windows. Here's a video that [explains how for Windows 7](https://www.youtube.com/watch?v=R9Y9yuXA-qA), and here's a [knowledge base article](http://support2.microsoft.com/kb/556009) that explains the steps in writing, if that's your jam.
+It's a bit trickier to figure out what architecture you have when you're using windows. Here's a video that [explains how for Windows 7](https://www.youtube.com/watch?v=R9Y9yuXA-qA).
+
+For details instructions, see the [installing the CLI for Windows](http://help.exercism.io/installing-the-cli-on-windows.html) page, if that's your jam, together with a [Microsoft knowledge base article](http://help.exercism.io/installing-the-cli-on-windows.html) to help you determine whether you have a 32-bit or 64-bit installation of Windows (if you don't already know).
 
