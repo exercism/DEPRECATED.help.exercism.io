@@ -17,18 +17,18 @@ Exercism will only download a test file. You will need to manually create the he
 
 * Start Xcode create a new project.
 * Select OSX-->Application and then Command Line Tool.
-* Click Next and give it a project name using the `ExerciseName` is advised.
+* Click Next and give it a project name using the ExerciseName is advised.
 * Click Next until the wizard is finished.
 * Now that the project is created click on Editor-->Add Target.
 * Select OSX-->Other and select Cocoa Testing Bundle.
-* Name the target `ExerciseName Tests`.
-* Open the new file which will be named `ExerciseName_Tests.m` in a folder called `ExerciseName Tests` and replace the contents with the test file you got from exercism.
+* Name the target ExerciseName Tests.
+* Open the new file which will be named ExerciseName_Tests.m in a folder called ExerciseName Tests and replace the contents with the test file you got from exercism.
 * Create a new OS X Cocoa Class with the correct name for the exercise.
 * Click on your project in the left hand pane.
 * Select Build Phases on the right.
-* Add your `.m` files to the compile sources list.
+* Add your .m files to the compile sources list.
 * Use CMD-5 to navigate to the test navigator.
-* Run the tests by clicking on the right pointing arrow that appear when hovering over the bundle named `ExerciseName Tests` in the test navigator.
+* Run the tests by clicking on the right pointing arrow that appear when hovering over the bundle named ExerciseName Tests in the test navigator.
 
 Tests will be run through Xcode.
 
