@@ -8,10 +8,13 @@ Borrowed heavily from [lineman-docs](https://github.com/linemanjs/lineman-docs).
 
 1. Clone this repository.
 * Run `gem install bundler` if you haven't already installed [bundler](http://bundler.io).
+* Run `cd docs/` so that you are inside the directory that contains the repository.
 * Run `bundle install` to install the sass dependency.
 * Run `npm install -g lineman` if you haven't already installed [lineman.js](https://github.com/linemanjs/lineman#install).
 * Run `npm install` to install required project dependencies.
 * Run `lineman run` while you work on writing markdown files. Visit the site on [localhost:8000](http://localhost:8000)
+
+If you are on Mac OS X, depending on your configuration one or more of the steps might fail. If a step fails, try to run the command with `sudo` in front of it, e.g. `sudo npm install -g lineman`.
 
 If you need some more documentation on getting started with lineman, there's a [great tutorial](http://lineman-install.herokuapp.com/) for creating a "Hello, world" app.
 
