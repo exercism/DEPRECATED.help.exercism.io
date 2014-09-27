@@ -10,16 +10,11 @@ What follows are instructions that work for installing exercism on Windows 7. In
 **NOTE:** You will need Admin privileges for some of the steps detailed below. If you don't have them, get someone with those privileges to do the install for you.
 
 ## Downloading the appropriate files
-If you don't already have 7-Zip installed, download and install it from http://www.7-zip.org/
-Download the appropriate exercism Windows patch release (`exercism-windows-32bit.tgz` for 32-bit machines or `exercism-windows-64bit.tgz` for 64-bit machines) from [here](https://github.com/exercism/cli/releases/latest)
+Download the appropriate exercism Windows patch release (`exercism-windows-32bit.zip` for 32-bit machines or `exercism-windows-64bit.zip` for 64-bit machines) from [here](https://github.com/exercism/cli/releases/latest)
 
 ## Extracting the executable file
-1. Open the downloaded `exercism-windows-*.tgz` file using 7-Zip
-1. Within 7-Zip:
-	1. Double click on the `*.tar` file
-	1. Select `exercism.exe` and click on "Extract"
-	1. Click on the ellipsis `...` next to the "Copy to" selection box and navigate to the folder where you want exercism placed (you can create a new folder or two where you are during this process if you like by clicking on "Make New Folder" and giving it an appropriate name) then click on "OK"
-1. Exit 7-Zip
+1. Right-click on the downloaded `exercism-windows-*.zip` file and select "Extract All..." from the context menu.  Windows displays an extraction dialog.
+1. Click the "Browse..." button and navigate to the folder where you want exercism placed (you can create a new folder or two where you are during this process if you like by clicking on "Make New Folder" and giving it an appropriate name) then click on "OK"
 
 ## Adding the executable's directory to PATH
 1. **WARNING:** You are about to update your "PATH" user or system variable. You must carefully follow the instructions below, as deleting any existing paths could have serious implications for your Windows installation. This is not difficult, just make sure you don't rush through this stage and miss a step.
