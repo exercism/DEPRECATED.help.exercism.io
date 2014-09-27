@@ -21,17 +21,16 @@ uname -m
 
 Common values are `i386` (32-bit) and `x86_64` (64-bit).
 
-For more options and more detailed instructions, see the [installing the CLI for Mac OS X](/installing-the-cli-on-mac) page.
+For more options and more detailed instructions, see the [installing the CLI for Mac OS X](/installing-the-cli-on-mac.html) page.
 
 ## Linux
 
 If you're unsure what archicture your processor has, the command `uname -m` should tell you.
 
-For more options and more detailed instructions, see the [installing the CLI for Linux](/installing-the-cli-on-linux) page.
+For more options and more detailed instructions, see the [installing the CLI for Linux](/installing-the-cli-on-linux.html) page.
 
 ## Windows
 
-It's a bit trickier to figure out what architecture you have when you're using windows. Here's a video that [explains how for Windows 7](https://www.youtube.com/watch?v=R9Y9yuXA-qA).
+It's a bit trickier to determine whether you have a 32-bit or 64-bit installation of Windows. Here's a video that [explains how for Windows 7](https://www.youtube.com/watch?v=R9Y9yuXA-qA).
 
-For details instructions, see the [installing the CLI for Windows](http://help.exercism.io/installing-the-cli-on-windows.html) page, if that's your jam, together with a [Microsoft knowledge base article](http://help.exercism.io/installing-the-cli-on-windows.html) to help you determine whether you have a 32-bit or 64-bit installation of Windows (if you don't already know).
-
+For detailed instructions, see the [installing the CLI for Windows](http://help.exercism.io/installing-the-cli-on-windows.html) page.
