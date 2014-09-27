@@ -44,12 +44,34 @@ Determine which is the appropriate exercism Windows patch release for your Opera
 1. Type in the path to where you have placed `exercism.exe` (you can paste in the location if you open the exercism folder in Explorer, click in the location bar at the top and copy the text)
 1. **NOTE:** If you can't remember where you have placed the file, search for "exercism.exe" in Explorer, open the folder by right-clicking on `exercism.exe` and clicking on "Open file location", then follow the instructions in the previous step to copy and paste the location into the PATH value
 
-## Running exercism
+## Running exercism <a name="run-exercism"></a>
 1. Open a command line interface (CLI) by clicking on "Start", typing "cmd" into the search bar and pressing enter
 1. In the resulting window type in "exercism" and press Enter
 1. If all is well you should be shown information on how to use exercism
 
 ## More information
 See the [CLI site](http://cli.exercism.io/).
+
+## Using the Chocolatey Package Manager for Windows
+**NOTE:** You can find more information about using Chocolatey at the [Chocolatey site](https://chocolatey.org/).
+1. Open a command line interface (CLI) by clicking on "Start", typing "cmd" into the search bar and pressing enter
+1. Next copy and paste the following command into the command window:
+```
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+```
+1. Once the installation finishes, Chocolatey should be installed. To test the installation you can open a new command window (step 1) and enter the following command:
+```
+choco /?
+```
+You should see the help documentation for the "choco" command if all is well
+1. Next we need to install the Exercism CLI.  Open up a new command window (step 1) and type in the following:
+```
+choco install exercism-io-cli
+```
+1. Proceed to [Running exercism](#run-exercism) to test the exercism install
+1. If at anytime you need to update the exercism CLI to a newer version you can open up a command line (step 1) and type in the following:
+```
+choco update exercism-io-cli
+```
 
 <a class="secondary-button" href="fetching-exercises.html">Fetching Exercises</a>
