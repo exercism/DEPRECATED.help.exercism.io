@@ -9,9 +9,21 @@ There are a few options available to you for installing the CLI on a Mac.
 
 1. You can download the [latest release](http://github.com/exercism/cli/releases/latest) for your operating system and architecture (32-bit or 64-bit), unzip it, and place the binary [in your PATH](/understanding-path.html).
 1. You can use the [installation script](http://cli.exercism.io/install) which is the same thing as above, except automated.
-1. You can use homebrew.
+1. You can use [homebrew](http://brew.sh/).
 
 ## Manual Installation
+
+If you have neither `curl` nor `wget` then you'll need to [get the latest release](https://github.com/exercism/cli/releases/latest) from GitHub.
+
+To figure out which processor architecture your computer has, open Terminal.app and type in the following command:
+
+```bash
+uname -m
+```
+
+Common values are `i386` (32-bit) and `x86_64` (64-bit).
+
+**TODO: step-by-step instructions here**
 
 ## Installation Script
 
@@ -90,20 +102,6 @@ To see all the commands available to you, run `exercism` without any options:
 ```bash
 exercism
 ```
-
-## Manual Installation
-
-If you have neither `curl` nor `wget` then you'll need to [get the latest release](https://github.com/exercism/cli/releases/latest) from GitHub.
-
-To figure out which processor architecture your computer has, open Terminal.app and type in the following command:
-
-```bash
-uname -m
-```
-
-Common values are `i386` (32-bit) and `x86_64` (64-bit).
-
-**TODO: step-by-step instructions here**
 
 ## Homebrew
 
