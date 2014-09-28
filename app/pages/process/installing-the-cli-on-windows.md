@@ -5,8 +5,6 @@ category: "process"
 ordinal: 2
 ---
 
-# Installing the CLI on Windows
-
 What follows are instructions that work for installing exercism on Windows 7 or Windows 8. Instructions for other versions of Windows may differ slightly, but the principle will be the same.
 
 **NOTE:** You will need Admin privileges for some of the steps detailed below. If you don't have them, get someone with those privileges to do the install for you.
