@@ -15,8 +15,12 @@ body {
 }
 
 a {
-  color: $dark-grey;
+  color: $berry;
   text-decoration: none;
+}
+
+a:hover {
+  color: $dark-berry;
 }
 
 ul {
