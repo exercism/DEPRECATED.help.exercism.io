@@ -13,6 +13,8 @@ There are a few options available to you for installing the CLI on a Mac.
 
 ## Manual Installation
 
+This is described in detail in [this video tutorial](https://www.youtube.com/watch?v=TCT4eHGwfaE).
+
 If you have neither `curl` nor `wget` then you'll need to [get the latest release](https://github.com/exercism/cli/releases/latest) from GitHub.
 
 To figure out which processor architecture your computer has, open Terminal.app and type in the following command:
