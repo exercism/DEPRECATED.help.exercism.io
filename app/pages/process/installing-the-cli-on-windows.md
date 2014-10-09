@@ -7,6 +7,8 @@ ordinal: 2
 
 What follows are instructions that work for installing exercism on Windows 7 or Windows 8. Instructions for other versions of Windows may differ slightly, but the principle will be the same.
 
+For a visual guide, see [this screencast](https://www.youtube.com/watch?v=R9Y9yuXA-qA).
+
 **NOTE:** You will need Admin privileges for some of the steps detailed below. If you don't have them, get someone with those privileges to do the install for you.
 
 ## Before you start
