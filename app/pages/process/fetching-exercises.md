@@ -41,4 +41,8 @@ You can work on them using your usual editor, tools, and environment. Read the <
 
 As soon as you have submitted code to an exercise, `exercism fetch` will provide you with access to the next exercise.
 
+If you need to update your downloaded files for an exercise, delete the files and fetch the exercises for that language again. The newer versions of the files will be downloaded.
+
+If you're no longer working on the exercise, you may need to run `exercism restore` in order to re-download your solutions as well as the exercise files.
+
 <a class="secondary-button" href="submitting-exercises.html">Submitting Exercises</a>
