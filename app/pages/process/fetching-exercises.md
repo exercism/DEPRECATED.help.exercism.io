@@ -8,12 +8,17 @@ ordinal: 10
 First configure the command-line client:
 
 ```bash
-$ exercism configure --key=YOUR_API_KEY --dir=/path/to/exercises
+$ exercism configure --key=YOUR_API_KEY
 ```
 
 Your API key can be found in your account settings.
 
-The `dir` is optional. If you leave it off, an exercism directory will be created for you in your home directory the first time you fetch problems from the site.
+By default an exercism directory will be created for you in your home
+directory the first time you. There are some optional configuration flags, see
+`exercism help configure` for more details.
+
+The configuration is written to `~/.exercism.json`. This can be configured
+using an environment variable named `EXERCISM_CONFIG_FILE`.
 
 To fetch your current exercises, issue the command:
 
