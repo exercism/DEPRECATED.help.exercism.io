@@ -5,10 +5,6 @@ category: "languages"
 ordinal: 1910
 ---
 
-### Beta Warning
-
-At the time this document was written, both Swift and XCode 6 were still in beta, so these instructions may be out of date.
-
 ## Installing Swift
 
 In order to use Swift, you must be running Xcode version 6 or greater which is available to registered developers at [Apple's developer center](https://developer.apple.com/resources/).
