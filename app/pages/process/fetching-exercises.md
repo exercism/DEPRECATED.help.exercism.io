@@ -11,7 +11,7 @@ First configure the command-line client:
 exercism configure --key=YOUR_API_KEY
 ```
 
-Your API key can be found in your account settings.
+Your API key can be found in [your exercism.io account settings](http://exercism.io/account).
 
 By default an exercism directory will be created for you in your home
 directory the first time you. There are some optional configuration flags, see
