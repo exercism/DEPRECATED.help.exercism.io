@@ -110,8 +110,8 @@ exercism
 You'll need to get access to the homebrew/binary repository, then use `brew install` as usual:
 
 ```bash
-$ brew tap homebrew/binary
-$ brew install exercism
+brew tap homebrew/binary
+brew install exercism
 ```
 
 The homebrew version of exercism will often lag a bit behind for a few days after a new release has been made, since it requires a pull request to be accepted into the homebrew-binary project before it's available.

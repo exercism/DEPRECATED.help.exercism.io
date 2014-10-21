@@ -25,8 +25,8 @@ chmod +x install
 ```
 
 ```bash
-$ wget http://cli.exercism.io/install
-$ chmod +x install
+wget http://cli.exercism.io/install
+chmod +x install
 ```
 
 Read it before you run it, people.
