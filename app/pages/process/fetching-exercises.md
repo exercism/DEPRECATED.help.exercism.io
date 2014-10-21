@@ -8,7 +8,7 @@ ordinal: 10
 First configure the command-line client:
 
 ```bash
-$ exercism configure --key=YOUR_API_KEY
+exercism configure --key=YOUR_API_KEY
 ```
 
 Your API key can be found in your account settings.
@@ -23,13 +23,13 @@ using an environment variable named `EXERCISM_CONFIG_FILE`.
 To fetch your current exercises, issue the command:
 
 ```bash
-$ exercism fetch [language]
+exercism fetch [language]
 ```
 
 Or you can fetch all languages:
 
 ```bash
-$ exercism fetch
+exercism fetch
 ```
 
 The program will download the exercises to the configured project directory.
@@ -39,7 +39,7 @@ Note that the code will be put in that directory even if you are somewhere else 
 To start working on an exercise, go find the downloaded files.
 
 ```bash
-$ cd path/to/exercism/project # or whatever
+cd path/to/exercism/project # or whatever
 ```
 
 You can work on them using your usual editor, tools, and environment. Read the <a class="link-side-menu" href="#sidr">getting started guide</a> of your language to find out how to run the tests.
