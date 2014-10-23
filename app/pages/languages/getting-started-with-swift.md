@@ -15,7 +15,7 @@ Test will run through the Xcode GUI using the XCTest framework.
 
 ### Creating the project in Xcode
 
-These steps will assume that you are working on the `bob` exercise. If you are not, replace `bob` with your exercise name in the steps below.
+These steps will use the `bob` exercise as an example. If you are not working on `bob`, replace `bob` with your exercise name in the steps below.
 
 * Start Xcode create a new project.
 * Select iOS-->Application and then Single View Application and click Next.
