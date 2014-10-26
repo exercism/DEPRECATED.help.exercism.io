@@ -9,14 +9,6 @@ If Python isn't already available on your system follow the instructions at [the
 
 Exercism currently supports Python3.4, Python3.3 and Python2.7.
 
-## Running Tests
-
-Execute tests with:
-
-```bash
-$ cd exercism/project/directory/bob
-$ python bob_test.py
-```
 
 ## Packages
 
@@ -24,6 +16,28 @@ The [Python Package Index](https://pypi.python.org/pypi) contains thousands of p
 Pretty much each of them is installable with `pip install packagename`.
 If you don't have __pip__ already, [get it now](https://pip.pypa.io/en/latest/installing.html)!
 
+## Running Tests for an Exercise
+
+Execute tests for an exercise with:
+
+```bash
+$ cd exercism/python/bob
+$ python bob_test.py
+```
+
+##  Running Tests for All Exercises
+
+Before running all the tests ensure you have pytest installed:
+
+```bash
+$ pip install pytest
+```
+After pytest is installed all tests can be executed with:
+
+```bash
+$ cd exercism/python/
+$ py.test
+```
 ## Code Style and Linting
 
 There's a style guide called [PEP8](http://legacy.python.org/dev/peps/pep-0008/) that many Python projects adhere to.
