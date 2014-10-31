@@ -19,7 +19,7 @@ There is an IRC room setup where you can go and ask questions or even help out o
 
 If you have an [IRC client](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) feel free to connect to one of the many [Freenode servers](https://freenode.net/irc_servers.shtml).
 
-You can also use the [Freenode webchat](https://webchat.freenode.net/), instead.
+If you don't want to bother with a stand alone client, you can also use the [Freenode webchat](https://webchat.freenode.net/), instead.
 
 The room is ```#exercism``` and there's already a few folks waiting to help out!
 
@@ -33,7 +33,7 @@ There has been some talk of having some Google Hangouts for folks to get togethe
 
 ### StackOverflow
 
-Ask your question and tag it with "exercism" and, if relevant, the language that you're stuck in.
+Ask your question and tag it with [`exercism`](http://stackoverflow.com/questions/tagged/exercism) and, if relevant, the language that you're stuck in.
 
 ### GitHub Issues
 
