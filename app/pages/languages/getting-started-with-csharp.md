@@ -5,18 +5,51 @@ category: "languages"
 ordinal: 300
 ---
 
-## Installing C&#35;
+# Installing C&#35;
 
-### Windows
+## Windows
 There are a couple of different ways to get started using C#. The main way is to
 install Visual Studio, the IDE for C# and related projects.
 
 If you don't want to use the IDE, files can be compiled via command line using the
 compiler provided by the .NET framework.
 
-##### With Visual Studio
-Install [Visual Studio Express 2013 for Windows Desktop](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop).
-This will include the IDE and compiler for C#.
+### With Visual Studio
+
+Install [Visual Studio Express 2013 for Windows Desktop](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop). This will include the IDE and compiler for C#.
+
+You can either start by creating your own project for working with the Exercism problems or you can download a Visual Studio solution that is already set up.
+
+#### Exercism.io Visual Studio Template
+
+This is a Visual Studio template that comes pre-configured to work on the problems in as many languages as Visual Studio supports.
+
+![Solution Explorer](/img/setup/visualstudio/SolutionExplorer.png)
+
+1. Download the [Exercism.io Visual Studio Template](https://github.com/rprouse/Exercism.VisualStudio) from GitHub by clicking the Download Zip button on the page.
+2. Unzip the template into your exercises directory, for example `C:\src\exercises`
+2. Install the [Exercism CLI](http://help.exercism.io/installing-the-cli.html)
+3. Open a command prompt to your exercise directory 
+4. Add your API key to exercism `exercism configure --key=YOUR_API_KEY`
+5. Configure your source directory in exercism `exercism configure --dir=C:\src\exercises`
+6. [Fetch your first exercise](http://help.exercism.io/fetching-exercises.html) `exercism fetch csharp`
+7. Open the Exercism solution in Visual Studio
+8. Expand the Exercism.csharp project
+9. Click on **Show All Files** in Solution Explorer (See below)
+10. The exercise you just fetched will appear greyed out. Right click on the folder and **Include In Project**
+11. Get coding...
+
+![Add files](/img/setup/visualstudio/AddFiles.png)
+
+The NUnit NuGet package is included in the project, so you will not need to install it.
+
+If you have a paid version of Visual Studio install the [NUnit Visual Studio Test Adapter](https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d). This will allow you to run the tests from within Visual Studio. If you have ReSharper installed, you can also [run the tests using ReSharper](https://www.jetbrains.com/resharper/features/unit_testing.html).
+
+![Test Explorer](/img/setup/visualstudio/TestExplorer.png)
+
+If you are using Visual Studio Express, install [NUnit 2.6.3](http://www.nunit.org/) and run the tests from the command line (see below).
+
+#### Create a New Visual Studio Project
 
 Once installed and started, click on "Create New Project" (alternatively, you can go to File->New->New Project).
 
@@ -49,7 +82,7 @@ To start implementing the exercise, in Visual Studio, right click on where you w
 
 Now you can start coding!
 
-##### With the command line compiler
+### With the command line compiler
 The .cs files can also be compiled without Visual Studio. Get the latest version of
 [.NET installed](http://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx) and there will be an executable called csc.exe.
 
@@ -57,7 +90,7 @@ The compiler executable is usually located in the Microsoft.NET\Framework\Versio
 
 Refer to this [MSDN article](http://msdn.microsoft.com/en-us/library/78f4aasd.aspx) for more information on the command line compiler.
 
-### Mac
+## Mac
 Install [Mono Develop](http://www.mono-project.com/Mono:OSX#Installing_Mono_on_MacOS_X).
 
 Build
@@ -82,11 +115,11 @@ rm -rf output
 
 Mono does have an IDE that can be used for development instead of the above command line commands.
 
-### Linux
+## Linux
 
 [Mono Develop](http://www.mono-project.com/Mono_For_Linux_Developers) is also available for Linux.
 
-## Running Tests
+# Running Tests
 All tests have been ignored except the first one for you to work on. To continue, just remove the ```[Ignore]``` attribute on the test to start working on it.
 
 Make sure [NUnit](http://nunit.org/?p=download) is installed, if not already installed from the setup from above.
@@ -107,7 +140,7 @@ Once you have been able to compile the code it will create a DLL in the ```\bin\
 
 The NUnit runner will automatically reload the DLL if it has been updated.
 
-## Code Analysis
+# Code Analysis
 Code Analysis can be turned on to run after a build of certain projects. This [MSDN article](http://msdn.microsoft.com/en-us/library/ms182066.aspx) is a good walkthrough on how to enable code analysis.
 
 **NOTE:** This will add a bit of extra time to compile the project.
@@ -116,7 +149,7 @@ Code A uses FxCop to run the analysis. [FxCop](http://www.microsoft.com/en-us/do
 
 [StyleCop](https://stylecop.codeplex.com/) can be installed and run inside Visual Studio to analyze the code style.
 
-## Recommended Learning Resources
+# Recommended Learning Resources
 
 Exercism provides exercises and feedback but can be difficult to jump into for those learning C# for the first time. These resources can help you get started:
 
