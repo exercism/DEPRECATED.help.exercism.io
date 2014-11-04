@@ -5,16 +5,16 @@ category: "languages"
 ordinal: 300
 ---
 
-# Installing C&#35;
+## Installing C&#35;
 
-## Windows
+### Windows
 There are a couple of different ways to get started using C#. The main way is to
 install Visual Studio, the IDE for C# and related projects.
 
 If you don't want to use the IDE, files can be compiled via command line using the
 compiler provided by the .NET framework.
 
-### With Visual Studio
+#### With Visual Studio
 
 Install [Visual Studio Express 2013 for Windows Desktop](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop). This will include the IDE and compiler for C#.
 
@@ -82,7 +82,7 @@ To start implementing the exercise, in Visual Studio, right click on where you w
 
 Now you can start coding!
 
-### With the command line compiler
+#### With the command line compiler
 The .cs files can also be compiled without Visual Studio. Get the latest version of
 [.NET installed](http://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx) and there will be an executable called csc.exe.
 
@@ -90,7 +90,7 @@ The compiler executable is usually located in the Microsoft.NET\Framework\Versio
 
 Refer to this [MSDN article](http://msdn.microsoft.com/en-us/library/78f4aasd.aspx) for more information on the command line compiler.
 
-## Mac
+### Mac
 Install [Mono Develop](http://www.mono-project.com/Mono:OSX#Installing_Mono_on_MacOS_X).
 
 Build
@@ -115,11 +115,11 @@ rm -rf output
 
 Mono does have an IDE that can be used for development instead of the above command line commands.
 
-## Linux
+### Linux
 
 [Mono Develop](http://www.mono-project.com/Mono_For_Linux_Developers) is also available for Linux.
 
-# Running Tests
+## Running Tests
 All tests have been ignored except the first one for you to work on. To continue, just remove the ```[Ignore]``` attribute on the test to start working on it.
 
 Make sure [NUnit](http://nunit.org/?p=download) is installed, if not already installed from the setup from above.
@@ -140,7 +140,7 @@ Once you have been able to compile the code it will create a DLL in the ```\bin\
 
 The NUnit runner will automatically reload the DLL if it has been updated.
 
-# Code Analysis
+## Code Analysis
 Code Analysis can be turned on to run after a build of certain projects. This [MSDN article](http://msdn.microsoft.com/en-us/library/ms182066.aspx) is a good walkthrough on how to enable code analysis.
 
 **NOTE:** This will add a bit of extra time to compile the project.
@@ -149,7 +149,7 @@ Code A uses FxCop to run the analysis. [FxCop](http://www.microsoft.com/en-us/do
 
 [StyleCop](https://stylecop.codeplex.com/) can be installed and run inside Visual Studio to analyze the code style.
 
-# Recommended Learning Resources
+## Recommended Learning Resources
 
 Exercism provides exercises and feedback but can be difficult to jump into for those learning C# for the first time. These resources can help you get started:
 

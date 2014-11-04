@@ -4,7 +4,7 @@ slug: "getting-started-with-cpp"
 category: "languages"
 ordinal: 310
 ---
-# Submitting Your Work for Peer Review
+## Submitting Your Work for Peer Review
 
 **Important!**  Currently exercism only supports submitting a single
 file for each exercise (see [issue 1165](https://github.com/exercism/exercism.io/issues/1165)).
@@ -16,7 +16,7 @@ When using a `.cpp` file for the implementation, it is helpful to reviewers
 if the contents of the `.h` file appear in the `.cpp` file at the top
 as a comment or `#if` disabled block.
 
-# Learning C++ From Ground Zero
+## Learning C++ From Ground Zero
 
 C++ is a language with a broad, expressive syntax that supports several
 different programming styles: procedural, object-oriented, functional,
@@ -45,7 +45,7 @@ interface to a C++ compiler that will let you try out small programs.
 Sometimes this can be an easier way to perform a quick experiment than
 building something locally in an integrated development environment.
 
-# Test-Driven Development in C++
+## Test-Driven Development in C++
 
 Exercism assumes that you are familiar with the concept of test-driven
 development.  Each exercise comes with a series of tests that are already
@@ -57,7 +57,7 @@ that you first work through the [Test-Driven Development in C++](https://github.
 workshop from [C++ Now! 2014](http://cppnow.org/).  The same tools used
 in that workshop are used in the C++ language track on exercism.
 
-# Prerequisites
+## Prerequisites
 
 The C++ language track requires that you have the following software
 installed on your system:
@@ -71,7 +71,7 @@ native build system into a single IDE (integrated development environment).
 Linux environments typically expose the compiler and native build system
 as separate command-line tools.
 
-## Prerequisite: A Modern C++11 Compiler
+### Prerequisite: A Modern C++11 Compiler
 
 This language track assumes [C++11](http://en.wikipedia.org/wiki/C%2B%2B11),
 the latest version of the ISO C++ standard that is
@@ -90,7 +90,7 @@ and related [discussion](http://en.cppreference.com/w/Talk:cpp/compiler_support)
 shows that most of the major features of C++11 are available on all major
 platforms.
 
-### Linux
+#### Linux
 
 Linux users will need gcc 4.8 or later or clang 3.4 or later for the compiler
 and `make` will be needed for the native build.  Make is pre-installed on most
@@ -106,19 +106,19 @@ $ # make g++ 4.8 the default g++ executable
 $ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 90
 ```
 
-### MacOS
+#### MacOS
 
 MacOS users can install gcc 4.8 with [Homebrew](http://brew.sh/) via
 `brew install gcc`.
 
-### Windows
+#### Windows
 
 Windows users can get
 [Visual Studio Express 2013 for Windows Desktop](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop),
 a free download that will give you the Visual Studio 2013 IDE and the
 latest version of the Microsoft Visual C++ compiler.
 
-## Prerequisite: CMake
+### Prerequisite: CMake
 
 CMake is an open source cross-platform build system that generates build
 scripts for your native build system (`make`, Visual Studio, Xcode, etc.).
@@ -141,7 +141,7 @@ improve the CMake support.
 
 [CMake 2.8.11 or later](http://www.cmake.org/) is required to use the provided build recipe.
 
-## Prerequisite: Boost
+### Prerequisite: Boost
 
 The unit tests use Boost.Test, the unit testing framework included with
 [Boost](http://www.boost.org/index.html).  You may find other libraries
@@ -156,7 +156,7 @@ need to download from source and build the library yourself.
 If you are having difficulties installing Boost for use with exercism,
 [ask for help](https://github.com/exercism/xcpp/issues).
 
-### Linux
+#### Linux
 
 Linux users can get pre-built packages with the following recipe:
 
@@ -171,7 +171,7 @@ some libraries may have issues as a result.  If a pre-built package is
 unavailable for your linux distribution, try
 [installing Boost from source](http://www.boost.org/doc/libs/release/more/getting_started/index.html).
 
-### Windows
+#### Windows
 
 Windows users can download compiled binaries from [sourceforge](http://sourceforge.net/projects/boost/files/boost-binaries/1.55.0-build2/).
 You must download the version appropriate for your compiler.  For recent
@@ -229,19 +229,19 @@ Call Stack (most recent call first):
 -- Configuring incomplete, errors occurred!
 ```
 
-### MacOS
+#### MacOS
 
 MacOS users can install boost with [Homebrew](http://brew.sh/) via
 `brew install boost`.
 
-### Building from Source
+#### Building from Source
 
 If all else fails you can download the source and build it yourself,
 but you should prefer a prebuilt distribution to make things easier.
 Bootstrap instructions are on the
 [Boost getting started page](http://www.boost.org/doc/libs/release/more/getting_started/index.html).
 
-# Working the Exercise
+## Working the Exercise
 
 Each exercise supplies the unit tests and a CMake build recipe.  You
 provide the implementation.
@@ -258,7 +258,7 @@ Working through each exercise is a process of:
  * Refactor your implementation to enhance readability, reduce duplication, etc.
  * Uncomment the next test
 
-## Creating the Initial Build with CMake
+### Creating the Initial Build with CMake
 
 Each exercise will bring a `CMakeLists.txt` file along with the unit
 tests.  It contains the canned CMake recipe to handle the build for you.
@@ -298,7 +298,7 @@ code using the appropriate command for your environment:
 
 Examples of running CMake for different environments are shown below.
 
-### Linux with Make
+#### Linux with Make
 
 The generator name for CMake is `Unix Makefiles`.
 Assuming the current exercise is `bob` and we're in the exercise folder:
@@ -314,7 +314,7 @@ $ cmake -G "Unix Makefiles" ..
 This example shows creating empty files for the implementation before
 running CMake.
 
-### Windows with Visual Studio 2013
+#### Windows with Visual Studio 2013
 
 The gneerator name for CMake is `Visual Studio 12`.  The same generator
 supports all editions of Visual Studio 2013: Express, Professional,
@@ -382,7 +382,7 @@ You can also run the test from the command line by running the `Exercism.cpp.exe
 
 To keep things simple, code the entire problem in the `.h` file and don't use a `.cpp` file. This makes submission to exercism easier.
 
-### MacOS with Xcode
+#### MacOS with Xcode
 
 The generator name for CMake is `Xcode`.
 Assuming the current exercise is `bob` and we're in the exercise folder:
@@ -398,7 +398,7 @@ $ cmake -G Xcode ..
 This example shows creating empty files for the implementation before
 running CMake.
 
-### MacOS with Make
+#### MacOS with Make
 
 The generator name for CMake is `Unix Makefiles`.
 Assuming the current exercise is `bob` and we're in the exercise folder:
@@ -414,7 +414,7 @@ $ cmake -G "Unix Makefiles" ..
 This example shows creating empty files for the implementation before
 running CMake.
 
-# Boost.Test Documentation
+## Boost.Test Documentation
 
 The Boost.Test documentation is being rewritten to improve usability
 and is nearly complete.
