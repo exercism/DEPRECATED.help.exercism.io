@@ -14,22 +14,29 @@ exercism configure --key=YOUR_API_KEY
 Your API key can be found in [your exercism.io account settings](http://exercism.io/account).
 
 By default an exercism directory will be created for you in your home
-directory the first time you. There are some optional configuration flags, see
-`exercism help configure` for more details.
+directory the first time you fetch problems. There are some optional configuration
+flags, see `exercism help configure` for more details.
 
 The configuration is written to `~/.exercism.json`. This can be configured
 using an environment variable named `EXERCISM_CONFIG_FILE`.
 
-To fetch your current exercises, issue the command:
-
-```bash
-exercism fetch [language]
-```
-
-Or you can fetch all languages:
+To fetch the first problem in each track, issue the command:
 
 ```bash
 exercism fetch
+```
+
+Or you can fetch your current problems in a single track, for example Haskell:
+
+```bash
+exercism fetch haskell
+```
+
+To check which languages are available, and what to call them on the command line,
+use the command:
+
+```bash
+exercism tracks
 ```
 
 The program will download the exercises to the configured project directory.
