@@ -11,6 +11,12 @@ For a visual guide, see [this screencast](https://www.youtube.com/watch?v=R9Y9yu
 
 **NOTE:** You will need Admin privileges for some of the steps detailed below. If you don't have them, get someone with those privileges to do the install for you.
 
+## Short version
+
+ 1. [Download the zip file](https://github.com/exercism/cli/releases/latest) that corresponds to your Windows installation (32-bit or 64-bit).
+ 1. Extract `exercism.exe` to a folder of your choice.
+ 1. Add that folder to your `PATH`.
+
 ## Before you start
 Before you download exercism you will need to determine whether you are running a 32-bit or 64-bit version of Windows. You can do this as follows:
 
