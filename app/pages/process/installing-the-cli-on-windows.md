@@ -7,9 +7,15 @@ ordinal: 2
 
 What follows are instructions that work for installing exercism on Windows 7 or Windows 8. Instructions for other versions of Windows may differ slightly, but the principle will be the same.
 
-For a visual guide, see [this screencast](https://www.youtube.com/watch?v=R9Y9yuXA-qA).
+For a visual guide, [see this screencast](https://www.youtube.com/watch?v=R9Y9yuXA-qA).
 
 **NOTE:** You will need Admin privileges for some of the steps detailed below. If you don't have them, get someone with those privileges to do the install for you.
+
+## Short version
+
+ 1. [Download the zip file](https://github.com/exercism/cli/releases/latest) that corresponds to your Windows installation (32-bit or 64-bit).
+ 1. Extract `exercism.exe` to a folder of your choice.
+ 1. Add that folder to your `PATH`.
 
 ## Before you start
 Before you download exercism you will need to determine whether you are running a 32-bit or 64-bit version of Windows. You can do this as follows:
@@ -23,7 +29,7 @@ Before you download exercism you will need to determine whether you are running 
 1. **NOTE 2** Keep this System window open as you will make use of it further down
 
 ## Downloading the appropriate file
-Determine which is the appropriate exercism Windows patch release for your Operating System (`exercism-windows-32bit.zip` for a 32-bit Operating System or `exercism-windows-64bit.zip` for a 64-bit Operating System) and download it from [here](https://github.com/exercism/cli/releases/latest)
+Determine which is the appropriate exercism Windows patch release for your Operating System (`exercism-windows-32bit.zip` for a 32-bit Operating System or `exercism-windows-64bit.zip` for a 64-bit Operating System) and [download it from here](https://github.com/exercism/cli/releases/latest)
 
 ## Copying `exercism.exe` to its own folder
 1. Open File Explorer and create a new folder where you want to place `exercism.exe` (e.g. `C:\Exercism` or `C:\Program Files\Exercism`)
@@ -50,7 +56,7 @@ Determine which is the appropriate exercism Windows patch release for your Opera
 1. If all is well you should be shown information on how to use exercism
 
 ## More information
-See the [CLI site](http://cli.exercism.io/).
+[See the CLI site](http://cli.exercism.io/).
 
 ## Using the Chocolatey Package Manager for Windows
 **NOTE:** You can find more information about using Chocolatey at the [Chocolatey site](https://chocolatey.org/).
