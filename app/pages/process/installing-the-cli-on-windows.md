@@ -36,6 +36,22 @@ Determine which is the appropriate exercism Windows patch release for your Opera
 1. Open the downloaded `exercism-windows-*.zip` file, select `exercism.exe` and copy it into the folder you created in the previous step
 
 ## Adding the executable's directory to PATH
+
+Adding the location of exercism.exe to the PATH variable allows you to call exercism from any command line location, i.e.:
+```
+C:\Users\MyName> exercism help
+```
+Instead of having to type the full\path\to\exercism.exe every time:
+```
+C:\Users\MyName> C:\Program Files\Exercism\exercism.exe help
+```
+
+Before you start, you can create a backup of your PATH variable by opening cmd.exe (Command Prompt) and typing the following command:
+```
+C:\Users\MyName> PATH > yyyy-mm-dd_PATH_backup.txt
+```
+This way you have a copy of PATH as it existed before you start the below steps.
+
 1. **WARNING:** You are about to update your "PATH" user or system variable. You must carefully follow the instructions below, as deleting any existing paths could have serious implications for your Windows installation. This is not difficult, just make sure you don't rush through this stage and miss a step. If you are worried about making the change below, I suggest you choose to make exercism available just for you as the impact of any mistake should be significantly less.
 1. In the System window left open in "Before you start", Select "Advanced system settings"
 1. If you are asked "Do you want to allow the following program to make changes to this computer?" click on "Yes"
