@@ -63,18 +63,18 @@ If you have it, download the script with the following command:
 wget http://cli.exercism.io/install
 ```
 
+In general, you don't ever want to run a script that someone else wrote without reading it yourself. Bad things can happen. In this case, the script is innocuous, but don't take my word for it. Open up the script and read it yourself. You can do this using your favorite text editor, or with the `open` command, which will default to TextEdit:
+
+```bash
+open install
+```
+
 ## Running the Install Script
 
 Now you'll need to make the script executable. Run the following command:
 
 ```bash
 chmod +x install
-```
-
-In general, you don't ever want to run a script that someone else wrote without reading it yourself. Bad things can happen. In this case, the script is innocuous, but don't take my word for it. Open up the script and read it yourself. You can do this using your favorite text editor, or with the `open` command, which will default to TextEdit:
-
-```bash
-open install
 ```
 
 **NOTE**: If you want to learn more about PATH, and what _making a file executable_ actually means, check out [Jumpstart Lab's CLI tutorial](http://tutorials.jumpstartlab.com/topics/cli.html).
