@@ -51,10 +51,10 @@ for the first exercise, put this code in `bob.lisp`:
 
 ```lisp
 (cl:defpackage #:bob
-  (:use :common-lisp)
-  (:export :response-for))
+  (:use #:common-lisp)
+  (:export #:response-for))
 
-(in-package :bob)
+(in-package #:bob)
 
 (defun response-for (msg) "Whatever.")
 ```
