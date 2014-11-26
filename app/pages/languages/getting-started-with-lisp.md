@@ -82,7 +82,7 @@ one of the pages above.
 
 ### Free books
 
-There are many other great books you find links to. These are are the
+There are many other great books you can find links to. These are the
 most popularly linked introductory works.
 
 * [Practical Common Lisp](http://www.gigamonkeys.com/book/), by Peter Seibel
