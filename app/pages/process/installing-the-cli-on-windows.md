@@ -52,6 +52,8 @@ C:\Users\MyName> PATH > yyyy-mm-dd_PATH_backup.txt
 ```
 This way you have a copy of PATH as it existed before you start the below steps.
 
+The following instructions will append the location of the exercism.exe file to the current value in the PATH variable. The directories in the PATH are separated by semicolons, so you should add a semicolon to the end of what you currently have, and then add the location of exercism.
+
 1. **WARNING:** You are about to update your "PATH" user or system variable. You must carefully follow the instructions below, as deleting any existing paths could have serious implications for your Windows installation. This is not difficult, just make sure you don't rush through this stage and miss a step. If you are worried about making the change below, I suggest you choose to make exercism available just for you as the impact of any mistake should be significantly less.
 1. In the System window left open in "Before you start", Select "Advanced system settings"
 1. If you are asked "Do you want to allow the following program to make changes to this computer?" click on "Yes"
