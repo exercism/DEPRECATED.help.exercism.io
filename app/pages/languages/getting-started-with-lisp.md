@@ -47,16 +47,19 @@ Load the test file into your running Lisp implementation.
 ## Making your first Common Lisp solution
 
 To create lisp code that can be loaded with `(load "bob")`
-for the first exercise, put this code in `bob.lisp`:
+for the first exercise, put this code in `dna.lisp`:
 
 ```lisp
-(cl:defpackage #:bob
+(cl:in-package #:cl-user)
+(cl:defpackage #:dna
   (:use #:common-lisp)
-  (:export #:response-for))
+  (:export #:hamming-distance))
 
-(in-package #:bob)
+(in-package #:dna)
 
-(defun response-for (msg) "Whatever.")
+(defun hamming-distance (dna1 dna2)
+  "Determine number of mutations between DNA strands by computing the Hamming Distance."
+  )
 ```
 
 ## Recommended Learning Resources
