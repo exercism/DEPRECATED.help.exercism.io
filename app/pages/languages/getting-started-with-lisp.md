@@ -50,8 +50,8 @@ To create lisp code that can be loaded with `(load "bob")`
 for the first exercise, put this code in `dna.lisp`:
 
 ```lisp
-(cl:in-package #:cl-user)
-(cl:defpackage #:dna
+(in-package #:cl-user)
+(defpackage #:dna
   (:use #:common-lisp)
   (:export #:hamming-distance))
 
