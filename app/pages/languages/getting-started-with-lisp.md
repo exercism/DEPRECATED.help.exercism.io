@@ -46,7 +46,7 @@ Load the test file into your running Lisp implementation.
 
 ## Making your first Common Lisp solution
 
-To create lisp code that can be loaded with `(load "bob")`
+To create lisp code that can be loaded with `(load "dna")`
 for the first exercise, put this code in `dna.lisp`:
 
 ```lisp
