@@ -114,7 +114,7 @@ MacOS users can install gcc 4.8 with [Homebrew](http://brew.sh/) via
 #### Windows
 
 Windows users can get
-[Visual Studio Express 2013 for Windows Desktop](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop),
+[Visual Studio Community 2013](http://www.visualstudio.com/en-us/products/visual-studio-community-vs),
 a free download that will give you the Visual Studio 2013 IDE and the
 latest version of the Microsoft Visual C++ compiler.
 
@@ -316,7 +316,7 @@ running CMake.
 
 #### Windows with Visual Studio 2013
 
-The gneerator name for CMake is `Visual Studio 12`.  The same generator
+The generator name for CMake is `Visual Studio 12`.  The same generator
 supports all editions of Visual Studio 2013: Express, Professional,
 Ultimate, etc.
 Assuming the current exercise is `bob` and we're in the exercise folder:
@@ -348,39 +348,6 @@ example using the Visual Studio 2013 generator:
 
 **Note:** Path locations passed to CMake always use slash (`/`) as the
 directory separator, even on Windows.
-
-#### Exercism.io Visual Studio Template
-
-This is a Visual Studio template that comes pre-configured to work on the problems in as many languages as Visual Studio supports.
-
-![Solution Explorer](/img/setup/visualstudio/SolutionExplorer.png)
-
-1. Download the [Exercism.io Visual Studio Template](https://github.com/rprouse/Exercism.VisualStudio) from GitHub by clicking the Download Zip button on the page.
-2. Unzip the template into your exercises directory, for example `C:\src\exercises`
-2. Install the [Exercism CLI](http://help.exercism.io/installing-the-cli.html)
-3. Open a command prompt to your exercise directory 
-4. Add your API key to exercism `exercism configure --key=YOUR_API_KEY`
-5. Configure your source directory in exercism `exercism configure --dir=C:\src\exercises`
-6. [Fetch your first exercise](http://help.exercism.io/fetching-exercises.html) `exercism fetch cpp`
-7. Open the Exercism solution in Visual Studio
-8. Expand the Exercism.cpp project
-9. Click on **Show All Files** in Solution Explorer (See below)
-10. The exercise you just fetched will appear greyed out. Right click on the folder and **Include In Project**
-11. Get coding...
-
-![Add files](/img/setup/visualstudio/AddFiles.png)
-
-In order for the C++ project to compile, **you must** set the environment variable `BOOST_ROOT` to the directory you installed boost to. On my system, `BOOST_ROOT=C:\Src\boost\boost_1_56_0`
-
-The C++ project includes all of the exercises in one project, so you can ignore the CMake instructions above. `BOOST_TEST_MAIN` is in `Exercism.cpp`, so **you must delete** the `#define BOOST_TEST_MAIN` line from every exercise that you fetch. 
-
-If you have a paid version of Visual Studio, you can run the tests within Visual Studio by installing the [Boost Unit Test Adapter](https://visualstudiogallery.msdn.microsoft.com/5f4ae1bd-b769-410e-8238-fb30beda987f) extension. It is still a bit flaky, but it generally works.
-
-![Test Explorer](/img/setup/visualstudio/TestExplorer.png)
-
-You can also run the test from the command line by running the `Exercism.cpp.exe` that is built by the project.
-
-To keep things simple, code the entire problem in the `.h` file and don't use a `.cpp` file. This makes submission to exercism easier.
 
 #### MacOS with Xcode
 
