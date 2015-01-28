@@ -5,7 +5,7 @@ category: "process"
 ordinal: 21
 ---
 
-After you've [fetched the exercises](/help/fetch) and written an implementation that gets the tests passing, then you're ready to submit the code to the website so you can discuss its merits and receive feedback.
+After you've [fetched the exercises](/fetching-exercises.html) and written an implementation that gets the tests passing, then you're ready to submit the code to the website so you can discuss its merits and receive feedback.
 
 ```bash
 exercism submit path/to/your/code.ext
