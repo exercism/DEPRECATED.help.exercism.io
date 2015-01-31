@@ -5,18 +5,53 @@ category: "languages"
 ordinal: 900
 ---
 
-
 ## Installation
 
-No installation is required.
+You will need:
+
+* Java
+* Gradle
+
+### Java
+
+If typing `java -version` on the command-line returns `command not found` or
+similar, then go to
+[java.com](https://www.java.com/en/download/help/index_installing.xml), which
+will tell you how to install Java on your system.
+
+If Java is already installed, you will see something like the following,
+perhaps with some extra details about builds and virtual machines:
+
+    java version "1.6.0_65"
+
+### Gradle
+
+On Mac OS X you can install Gradle using homebrew:
+
+    brew install gradle
+
+On Windows you will need to visit the [Gradle](http://gradle.org/installation)
+website and follow the instructions there.
+
+* Download the latest version (big green button)
+* Unpack the ZIP file, which will contain a folder (e.g. gradle-2.2.1)
+* Copy the folder to a convenient location
+* Add that location + `\bin` to your `PATH`
+
+Verify that it has been installed correctly by running:
+
+    gradle -version
+
+You should see a version number as well as some extra information about build
+time and dependencies.
 
 ## Running Tests
 
-    $ ./gradlew check
+Change directories to the downloaded exercism problem, and then run
+
+    $ gradle test
 
 ## IDE integration
 
-If you want to use Eclipse, run <code>./gradlew eclipse</code> to create appropriate
-project files using <a href="http://www.gradle.org/docs/current/userguide/eclipse_plugin.html">Gradle's Eclipse integration</a>.
-
-If you are using IntelliJ 12 or newer, <a href="http://www.jetbrains.com/idea/webhelp/importing-project-from-gradle-model.html">import a new project using a Gradle</a> external project model. For older versions of IntelliJ, run <code>./gradlew idea</code> to create an IntelliJ project using the <a href="http://www.gradle.org/docs/current/userguide/eclipse_plugin.html">Gradle's Eclipse integration</a>.
+Check out [Gradle Tooling](http://gradle.org/tooling) for integration into
+IDEs such as Eclipse.
