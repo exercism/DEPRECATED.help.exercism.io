@@ -9,6 +9,9 @@ ordinal: 1910
 
 In order to use Swift, you must be running Xcode version 6 or greater which is available to registered developers at [Apple's developer center](https://developer.apple.com/resources/).
 
+
+Swift 1.2 (Xcode 6.3.x) not yet supported (Feb 9th 2014) All exercises tested with Xcode 6.1.1
+
 ## Running Tests
 
 Test will run through the Xcode GUI using the XCTest framework.
