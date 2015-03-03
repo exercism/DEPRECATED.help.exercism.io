@@ -8,3 +8,5 @@
 
 .sass-cache
 /.project
+
+npm-debug.log
