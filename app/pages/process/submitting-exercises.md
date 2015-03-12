@@ -36,4 +36,12 @@ some "nitpick" feedback, you can submit your code again using the same
 command to exercism.  Each version of your submitted code for an exercise
 is visible on the web site.
 
+If you submit wrong file or incomplete file by mistake, you can remove the
+most recently submitted solution using the following command:
+
+```bash
+exercism unsubmit
+```
+
+
 <a class="secondary-button" href="nitpicking-code.html">Nitpicking Code</a>
