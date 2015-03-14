@@ -31,10 +31,6 @@ If you need help and feel like it would be best to do a screen sharing session, 
 
 There has been some talk of having some Google Hangouts for folks to get together and talk about their code. Look for this in the near future!
 
-### StackOverflow
-
-Ask your question and tag it with [`exercism`](http://stackoverflow.com/questions/tagged/exercism) and, if relevant, the language that you're stuck in.
-
 ### GitHub Issues
 
 Of course, if all else fails, feel free to [log an issue](https://github.com/exercism/exercism.io/issues/new) through GitHub and someone will follow up on it.
