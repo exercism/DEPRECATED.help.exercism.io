@@ -36,6 +36,10 @@ some "nitpick" feedback, you can submit your code again using the same
 command to exercism.  Each version of your submitted code for an exercise
 is visible on the web site.
 
+If you get stuck, you can even submit an unfinished solution. In this case
+please also remember to comment on your own solution to explain what you were thinking and where you got stuck.
+You can then evolve to a complete solution eventually using "nitpicks" from other users.
+
 If you submit wrong file or incomplete file by mistake, you can remove the
 most recently submitted solution using the following command:
 
