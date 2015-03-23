@@ -2,7 +2,8 @@
 
 <p>There are a number of topics here to help you get set up in the various languages supported by Exercism, as well as to explain the process itself.</p>
 
-<p>If anything is confusing or unclear, please <a href="https://github.com/exercism/exercism.io/issues">open an issue on GitHub</a> so that we can help you out and improve the documentation.</p>
+<p>If anything is confusing or unclear, please <a href="https://github.com/exercism/exercism.io/issues">open an issue on GitHub</a> so that we can help you out and improve the documentation.
+Also feel free to drop in the <a href="https://gitter.im/exercism/support">Gitter chat</a>.</p>
 
 <p>You can also send me email at <a href="mailto:<%= site.email %>"><%= site.email %></a>.</p>
 

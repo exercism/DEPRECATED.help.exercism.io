@@ -13,8 +13,13 @@ Below are some useful links on how to ask questions.
 [Smart Questions](http://www.catb.org/esr/faqs/smart-questions.html)
 [Try Then Ask](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html)
 
-### IRC
+### Chat
+There are a couple of ways to get help through chat - Gitter and IRC. Feel free to hang out in either of these rooms.
 
+#### Gitter Chat
+There's a [Gitter chat](https://gitter.im/exercism/support) available for anyone who has any questions.
+
+#### IRC
 There is an IRC room setup where you can go and ask questions or even help out others yourself.
 
 If you have an [IRC client](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) feel free to connect to one of the many [Freenode servers](https://freenode.net/irc_servers.shtml).
