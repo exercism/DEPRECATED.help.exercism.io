@@ -41,6 +41,8 @@ DIR=/path/to/bin ./install
 
 ## Package Managers
 
-There's a [freshports build](http://www.freshports.org/misc/exercism), and an [AUR package](https://aur.archlinux.org/packages/exercism-cli). These sometimes lag behind the latest release.
+These are not officially supported, and sometimes (often) lag behind the latest release.
+
+There's a [freshports build](http://www.freshports.org/misc/exercism), and an [AUR package](https://aur.archlinux.org/packages/exercism-cli). The AUR package appears to be wildly out of date.
 
 <a class="secondary-button" href="fetching-exercises.html">Fetching Exercises</a>
