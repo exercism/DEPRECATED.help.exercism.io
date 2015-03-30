@@ -78,6 +78,24 @@ The following instructions will append the location of the exercism.exe file to 
 
 ## Using the Chocolatey Package Manager for Windows
 **NOTE:** You can find more information about using Chocolatey at the [Chocolatey site](https://chocolatey.org/).
+
+### Using PowerShell
+Windows ships with a powerful scripting language called [PowerShell](https://en.wikipedia.org/wiki/Windows_PowerShell). With this it's fairly easy to get started.
+
+Type in `powershell` in the search or run window in Windows. You may see two options - `PowerShell` and `PowerShell ISE`. The first is the regular PowerShell command prompt window. The second is the Interactive Scripting Environment. Feel free to choose either one. Here's [more](http://www.powershellpro.com/powershell-tutorial-introduction/tutorial-windows-powershell-console/) on getting started with PowerShell. Paste and run the following script and you're ready to go. This downloads Chocolatey, sets the environment path variable, and installs the exercism CLI.
+
+```powershell
+function which($name) { Get-Command $name -ErrorAction SilentlyContinue | Select-Object Definition }
+
+if ((which cinst) -eq $null) {
+    iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+    $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+}
+
+cinst exercism-io-cli
+```
+
+### Using the Command Prompt
 1. Open a command line interface (CLI) by clicking on "Start", typing "cmd" into the search bar and pressing enter
 1. Next copy and paste the following command into the command window:
 ```
