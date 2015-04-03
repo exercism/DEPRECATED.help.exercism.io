@@ -22,19 +22,23 @@ On Linux you can download the [install script](http://cli.exercism.io/install), 
 ```bash
 curl -O http://cli.exercism.io/install
 chmod +x install
+./install
 ```
-
+or 
 ```bash
 wget http://cli.exercism.io/install
 chmod +x install
+./install
 ```
 
-Read it before you run it, people.
+It's good practice to read the script before you run it.
+
+
+## Installing to a different path
 
 By default, the installer will try to put it in `/usr/local/bin/` or `$HOME/bin/`.
 
 If you'd like it to live somewhere else, you can specify it up front:
-
 ```bash
 DIR=/path/to/bin ./install
 ```
