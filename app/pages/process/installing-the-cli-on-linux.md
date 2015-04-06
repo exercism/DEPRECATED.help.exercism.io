@@ -8,7 +8,7 @@ ordinal: 4
 There are a few options available to you for installing the CLI on Linux.
 
 1. You can download the [latest release](http://github.com/exercism/cli/releases/latest) for your architecture (32-bit or 64-bit), extract it, and place the binary in your PATH.
-1. You can use the [installation script](http://cli.exercism.io/install) which is the same thing as above, except automated.
+1. You can use the [installation script](https://raw.githubusercontent.com/exercism/cli-www/master/public/install) which is the same thing as above, except automated.
 1. You can use one of the community-supported package managers.
 
 ## Manual Installation
@@ -17,16 +17,16 @@ There are a few options available to you for installing the CLI on Linux.
 
 ## Installation Script
 
-On Linux you can download the [install script](http://cli.exercism.io/install), and run it locally.
+On Linux you can download the [install script](https://raw.githubusercontent.com/exercism/cli-www/master/public/install), and run it locally.
 
 ```bash
-curl -O http://cli.exercism.io/install
+curl -O https://raw.githubusercontent.com/exercism/cli-www/master/public/install
 chmod +x install
 ./install
 ```
-or 
+or
 ```bash
-wget http://cli.exercism.io/install
+wget https://raw.githubusercontent.com/exercism/cli-www/master/public/install
 chmod +x install
 ./install
 ```

@@ -8,7 +8,7 @@ ordinal: 3
 There are a few options available to you for installing the CLI on a Mac.
 
 1. You can download the [latest release](http://github.com/exercism/cli/releases/latest) for your operating system and architecture (32-bit or 64-bit), unzip it, and place the binary [in your PATH](/understanding-path.html).
-1. You can use the [installation script](http://cli.exercism.io/install) which is the same thing as above, except automated.
+1. You can use the [installation script](https://raw.githubusercontent.com/exercism/cli-www/master/public/install) which is the same thing as above, except automated.
 1. You can use [homebrew](http://brew.sh/).
 
 ## Manual Installation
@@ -44,7 +44,7 @@ If you have `curl` it will give output a version number and some other stuff (if
 To download the script using `curl`, run the following command:
 
 ```bash
-curl -O http://cli.exercism.io/install
+curl -O https://raw.githubusercontent.com/exercism/cli-www/master/public/install
 ```
 
 ### Option 2: wget
@@ -60,7 +60,7 @@ Again, a version and some other stuff means that you have it, and "command not f
 If you have it, download the script with the following command:
 
 ```bash
-wget http://cli.exercism.io/install
+wget https://raw.githubusercontent.com/exercism/cli-www/master/public/install
 ```
 
 In general, you don't ever want to run a script that someone else wrote without reading it yourself. Bad things can happen. In this case, the script is innocuous, but don't take my word for it. Open up the script and read it yourself. You can do this using your favorite text editor, or with the `open` command, which will default to TextEdit:
