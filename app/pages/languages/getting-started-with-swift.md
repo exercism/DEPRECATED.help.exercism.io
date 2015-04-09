@@ -7,10 +7,10 @@ ordinal: 1910
 
 ## Installing Swift
 
-In order to use Swift, you must be running Xcode version 6 or greater which is available to registered developers at [Apple's developer center](https://developer.apple.com/resources/).
+In order to use Swift, you must be running Xcode version 6.3 or greater which is available  at [Apple's developer center](https://developer.apple.com/xcode/downloads/).
 
 
-Swift 1.2 (Xcode 6.3.x) not yet supported (Feb 9th 2014) All exercises tested with Xcode 6.1.1
+All exercises tested with Xcode 6.3 using Swift 1.2
 
 ## Running Tests
 
