@@ -23,7 +23,7 @@ $ brew install elixir
 ### On Linux
 
 Fedora 17+ and Fedora Rawhide: `sudo yum -y install elixir`
-Arch Linux : Elixir is available on AUR via `yaourt -S elixir`
+Arch Linux: Elixir is available on AUR via `yaourt -S elixir`
 
 ### Installing from Source
 
@@ -44,4 +44,4 @@ Exercism provides exercises and feedback but can be difficult to jump into for t
 * [Programming Elixir](http://pragprog.com/book/elixir/programming-elixir), by Dave Thomas
 * [StackOverflow](http://stackoverflow.com/questions/tagged/elixir)
 * [Introducing Elixir](http://shop.oreilly.com/product/0636920030584.do), by Simon St. Laurent, J. David Eisenberg
-* [Études for Elixir](http://chimera.labs.oreilly.com/books/1234000001642), by J. David Eisenberg (exercise companion for Intro to Elixir)
+* [Etudes for Elixir](http://chimera.labs.oreilly.com/books/1234000001642), by J. David Eisenberg (exercise companion for Intro to Elixir)

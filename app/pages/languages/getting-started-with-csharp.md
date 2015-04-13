@@ -95,17 +95,17 @@ Install [Mono Develop](http://www.mono-project.com/Mono:OSX#Installing_Mono_on_M
 
 Build
 ```bash
-dmcs Bob.cs BobTest.cs /../NUnit-2.6.3/bin/nunit.framework.dll -target:library
+dmcs Leap.cs LeapTest.cs -reference:nunit.framework.dll
 ```
 
 Link
 ```bash
-monolinker -a /../NUnit-2.6.3/bin/nunit.framework.dll -a Bob.dll
+monolinker -a /../NUnit-2.6.3/bin/nunit.framework.dll -a Leap.dll
 ```
 
 And run the DLL
 ```bash
-mono /../NUnit-2.6.3/bin/nunit-console.exe output/Bob.dll
+mono /../NUnit-2.6.3/bin/nunit-console.exe output/Leap.dll
 ```
 
 Clean up afterwards, if needed.

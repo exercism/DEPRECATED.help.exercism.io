@@ -21,6 +21,8 @@ The problem your computer is left with is _How does it know where the `ruby` pro
 
 `PATH` is a piece of knowledge that your computer keeps easily available.  `PATH` works similarly on Linux, MacOS and Windows, with some minor differences in syntax on Windows.
 
+Check out [explainshell.com](http://explainshell.com/), which provides an interactive explanation.
+
 ### Linux or MacOS
 
 Go ahead and check what your path is now by opening your terminal and typing:

@@ -9,7 +9,7 @@ ordinal: 900
 
 You will need:
 
-* Java
+* Java 8
 * Gradle
 
 ### Java
@@ -22,7 +22,7 @@ will tell you how to install Java on your system.
 If Java is already installed, you will see something like the following,
 perhaps with some extra details about builds and virtual machines:
 
-    java version "1.6.0_65"
+    java version "1.8.0"
 
 ### Gradle
 
