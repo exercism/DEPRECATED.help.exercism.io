@@ -2,12 +2,12 @@
 title: "Scheme"
 slug: "getting-started-with-scheme"
 category: "languages"
-ordinal: "?"
+ordinal: "1905"
 ---
 
-Install a Scheme implementation. [Guile] Scheme is recommended, as it is widely available and cross-platform. Also, it's the primary Scheme implementation used to build the examples. It's also a very useful Scheme to have in your toolbelt, as it's the official GNU extension language.
+Install [Guile Scheme][1], a free, open-source scheme implementation available on a variety of platforms.
 
-#### On OS X
+**OS X**
 
 Install via Homebrew:
 
@@ -15,4 +15,61 @@ Install via Homebrew:
 brew install guile
 ```
 
-####
+**Linux**
+
+On most Linux distros, Guile is probably already installed as it's the official
+GNU extension language. If not, use your distro's package manager to install, e.g.:
+
+Debian:
+```bash
+sudo apt-get install guile
+```
+
+Arch:
+```bash
+pacman -S guile
+```
+
+**Windows**
+
+Guile can theoretically be compiled from source under [Cygwin][2], but as with
+many things, it's probably easier just to run a Linux VM.
+
+You shouldn't need any "extra" packages.
+
+### Running tests
+
+Run `guile test-file.scm` from the command line.
+
+### Making your first Scheme solution
+
+To create scheme code that can be loaded with `(use-modules (dna))`,
+put this code in `dna.scm`:
+
+```scheme
+(define-module (dna)
+  #:export (to-rna))
+
+(define to-rna
+  (lambda (dna)
+  ;; Do something to transcribe dna to rna
+  ))
+```
+### Recommended Resources
+
+#### Reading
+
+* [Structure and Interpretation of Computer Programs][3], by Abelson, Sussman, and Sussman
+* [The Little Schemer][4]
+
+#### Tooling
+
+Emacs users will want to check out [Geiser][5], a collection of major and minor modes for interactive Scheme development
+
+
+
+[1]: http://www.gnu.org/software/guile/
+[2]: https://www.cygwin.com/
+[3]: http://mitpress.mit.edu/sicp/
+[4]: http://mitpress.mit.edu/books/little-schemer
+[5]: http://www.nongnu.org/geiser/
