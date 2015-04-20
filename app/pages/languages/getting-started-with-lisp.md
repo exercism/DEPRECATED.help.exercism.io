@@ -42,7 +42,10 @@ This will be done the first time you run any exercises tests. But you can do it 
 
 ## Running tests
 
-Load the test file into your running Lisp implementation.
+Load the test file into your running Lisp implementation, for example,
+`(load "point-mutations-test")`. This will run the tests the first
+time automatically. After that you can run the test suite in the REPL
+with `(lisp-unit:run-tests :all :point-mutations-test)`.
 
 ## Making your first Common Lisp solution
 
@@ -70,7 +73,7 @@ resources can help you get started:
 
 * [Cliki.net Getting Start Started Page](http://cliki.net/Getting%20Started), by various contributors
 * [Wikibooks book of Common Lisp, First steps](http://en.wikibooks.org/wiki/Common_Lisp/First_steps), by various contributors
-* [Learn X in Y minutes: were X = Common Lisp](http://learnxinyminutes.com/docs/common-lisp/) by Paul Nathan
+* [Learn X in Y minutes: where X = Common Lisp](http://learnxinyminutes.com/docs/common-lisp/) by Paul Nathan
 * [Northwestern University EECS 325 Readings](http://www.cs.northwestern.edu/academics/courses/325/readings/readings.php), by Chris Riesbeck
 * [The Common Lisp Cookbook](http://cl-cookbook.sourceforge.net/), by various contributors
 
