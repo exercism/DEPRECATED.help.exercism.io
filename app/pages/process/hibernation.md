@@ -2,7 +2,7 @@
 title: "Hibernation"
 slug: "hibernation"
 category: "process"
-ordinal: 100
+ordinal: 9
 ---
 
 When an exercise has been inactive for three weeks, then the state changes from "pending" or "needs input" to "hibernating".

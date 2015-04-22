@@ -2,7 +2,7 @@
 title: "Fetching Exercises"
 slug: "fetching-exercises"
 category: "process"
-ordinal: 10
+ordinal: 6
 ---
 
 First make sure you have [configured the CLI](/configuring-the-cli.html).
