@@ -5,23 +5,8 @@ category: "process"
 ordinal: 10
 ---
 
-First configure the command-line client:
-
-```bash
-exercism configure --key=YOUR_API_KEY
-```
-
-Note that there must be no spaces alongside `=` in the above command.
-`configure --key = YOURKEY` or `configure --key= YOURKEY` will not work.
-
-Your API key can be found in [your exercism.io account settings](http://exercism.io/account).
-
-By default an exercism directory will be created for you in your home
-directory the first time you fetch problems. There are some optional configuration
-flags, see `exercism help configure` for more details.
-
-The configuration is written to `~/.exercism.json`. This can be configured
-using an environment variable named `EXERCISM_CONFIG_FILE`.
+First make sure you have [configured the CLI](/configuring-the-cli.html).
+Adding your API key is required for later steps to work.
 
 To fetch the first problem in each track, issue the command:
 
