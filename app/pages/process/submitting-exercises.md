@@ -2,7 +2,7 @@
 title: "Submitting Exercises"
 slug: "submitting-exercises"
 category: "process"
-ordinal: 21
+ordinal: 7
 ---
 
 After you've [fetched the exercises](/fetching-exercises.html) and written an implementation that gets the tests passing, then you're ready to submit the code to the website so you can discuss its merits and receive feedback.
