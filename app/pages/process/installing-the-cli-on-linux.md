@@ -13,7 +13,38 @@ There are a few options available to you for installing the CLI on Linux.
 
 ## Manual Installation
 
-**TODO: add detailed instructions here**
+First, figure out whether you have a 32-bit or 64-bit machine. The following command should give you what you need:
+
+```bash
+uname -m
+```
+
+Common values are `i386` (32-bit) and `x86_64` (64-bit).
+
+Then download the [latest release](http://github.com/exercism/cli/releases/latest).
+
+Extract the binary using `tar -xzvf FILENAME`, e.g.
+
+```
+tar -xzvf exercism-linux-32bit.tgz
+```
+
+Place the binary in your `PATH`, e.g.:
+
+```
+mkdir ~/bin
+mv exercism ~/bin/
+export PATH=$HOME/bin:$PATH
+```
+
+You will want to stick the `export PATH=$HOME/bin:$PATH` line into your shell configuration. E.g. if your
+shell is `bash`, you could run:
+
+```
+echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+```
+
+To check which shell you have, run `echo $SHELL`.
 
 ## Installation Script
 
