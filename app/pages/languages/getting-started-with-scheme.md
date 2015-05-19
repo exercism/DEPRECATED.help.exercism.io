@@ -2,7 +2,7 @@
 title: "Scheme"
 slug: "getting-started-with-scheme"
 category: "languages"
-ordinal: "1905"
+ordinal: 2100
 ---
 
 Install [Guile Scheme][1], a free, open-source scheme implementation available on a variety of platforms.
