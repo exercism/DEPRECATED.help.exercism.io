@@ -2,7 +2,7 @@
 title: "Swift"
 slug: "getting-started-with-swift"
 category: "languages"
-ordinal: 1910
+ordinal: 2200
 ---
 
 ## Installing Swift
