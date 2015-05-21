@@ -9,7 +9,7 @@ ordinal: 1900
 
 Follow the ["Installing Rust" chapter in the Rust book](http://doc.rust-lang.org/stable/book/installing-rust.html).
 
-## Running Tests
+## Writing the Code
 
 To run the tests, all you need to do is run the following command:
 
@@ -19,7 +19,9 @@ $ cargo test
 
 Only the first test is enabled by default.  After you are ready to pass the next test, remove the ignore flag from the next test (`#[ignore]`).  You can also remove the flag from all the tests at once if you prefer.
 
-You should try to write as little as code possible to get the tests to pass.  Let the test failures guide you to what should be written next.
+You should try to write as little code possible to get the tests to pass.  Let the test failures guide you to what should be written next.
+
+Make sure to read the [Crates and Modules](http://doc.rust-lang.org/stable/book/crates-and-modules.html) chapter if you haven't already, it will help you with organizing your files.
 
 ## Recommended Learning Resources
 
