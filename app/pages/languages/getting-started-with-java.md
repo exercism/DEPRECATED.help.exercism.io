@@ -26,6 +26,8 @@ perhaps with some extra details about builds and virtual machines:
 
 ### Gradle
 
+Gradle is a popular build tool. Among other features, you can list libraries on which your code depends and Gradle will download them for you. Some assignments in this track have such external dependencies.
+
 On Mac OS X you can install Gradle using homebrew:
 
     brew install gradle
@@ -49,9 +51,25 @@ time and dependencies.
 
 Change directories to the downloaded exercism problem, and then run
 
-    $ gradle test
+    gradle test
 
 ## IDE integration
 
-Check out [Gradle Tooling](http://gradle.org/tooling) for integration into
-IDEs such as Eclipse.
+If you prefer to work on the assignments using Eclipse or IntelliJ IDEA, Gradle makes that straight-forward to setup.
+
+For Eclipse,
+
+    gradle eclipse
+
+generates the `.project` file and `.settings/` directory. In Eclipse, import this project into your workspace: File > Import > Existing Projects Into Workspace.
+
+For IntelliJ,
+
+    gradle intellij
+
+generates the `<project-name>.iml` file and `.idea/` directory. In IntelliJ, open this project: File > Open.
+
+Both IDEs have plugins that provide additional support for Gradle.
+
+* [Gradle Integration for Eclipse (4.4)](https://marketplace.eclipse.org/content/gradle-integration-eclipse-44)
+* [Gradle support in IntelliJ IDEA](https://www.jetbrains.com/idea/help/gradle.html)
