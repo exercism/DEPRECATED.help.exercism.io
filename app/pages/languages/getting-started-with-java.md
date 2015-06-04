@@ -63,9 +63,9 @@ For Eclipse,
 
 generates the `.project` file and `.settings/` directory. In Eclipse, import this project into your workspace: File > Import > Existing Projects Into Workspace.
 
-For IntelliJ,
+For IntelliJ IDEA,
 
-    gradle intellij
+    gradle idea
 
 generates the `<project-name>.iml` file and `.idea/` directory. In IntelliJ, open this project: File > Open.
 
