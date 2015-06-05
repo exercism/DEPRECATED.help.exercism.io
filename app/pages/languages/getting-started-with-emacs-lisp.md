@@ -96,6 +96,21 @@ your exercise code in a buffer pane side-by side with its test, like so:
 Split the frame vertically with `C-x 3`, and open the file with
 `C-x C-f /path/to/file`.
 
+### Getting started with Emacs Lisp
+
+The best documentation on Emacs Lisp is... shipped with Emacs itself!
+
+From the [EmacsWiki Entry][wiki-elisp]:
+
+[EmacsLispReference][elref] is the official Emacs Lisp documentation. It
+is built into the Emacs Info pages and is the go-to for most Elisp programmers.
+It is shipped with Emacs and can be accessed by the menu bar, with
+`M-x menu-bar-read-lispref`, or from the top page of [InfoMode][infomode].
+
+[EmacsLispIntro][elintro] is a book for non-programmers available from the
+[Free Software Foundation][fsf] and is shipped with Emacs. Its command is
+`M-x menu-bar-read-lispinfo`.
+
 ### Getting help
 
 1. [The Emacs Wiki][wiki] is invaluable. Spend lots of time here.
@@ -127,3 +142,8 @@ again.
 [wiki]: http://emacswiki.org/
 [man]:http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html
 [freenode]: https://freenode.net/
+[wiki-elisp]: http://www.emacswiki.org/emacs/EmacsLisp
+[elref]: http://www.emacswiki.org/emacs/EmacsLispReference
+[elintro]: http://www.emacswiki.org/emacs/EmacsLispIntro
+[infomode]:http://www.emacswiki.org/emacs/InfoMode
+[fsf]: http://www.emacswiki.org/emacs/FreeSoftwareFoundation
