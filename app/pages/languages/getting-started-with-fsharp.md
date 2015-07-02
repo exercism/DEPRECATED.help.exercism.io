@@ -9,8 +9,20 @@ ordinal: 600
 
 ## Installing F&#35;
 
-#### Mac and Linux
-The [F# Foundation](http://fsharp.org/) has detailed instructions on different options to install F# on [Mac](http://fsharp.org/use/mac/) and [Linux](http://fsharp.org/use/linux/).
+#### Mac
+
+Install [Xamarin Studio](http://xamarin.com/download).
+
+While Xamarin is most known for creating iOS and Android applications, it's still a perfect IDE to create F# console
+or library projects which is all that's needed for Exercism.
+
+Once installed and running, click on new solution and you'll find the library project to select. Don't forget to click the
+lanugage drop down to select F# since it defaults to C#.
+
+![Xamarin New Project](/img/setup/fsharp/xamarin-fsharp.jpeg)
+
+#### Linux
+The [F# Foundation](http://fsharp.org/) has detailed instructions on different options to install F# on [Linux](http://fsharp.org/use/linux/).
 
 #### In Browser
 You can also create and share F# scripts in your browser at [Try F#](http://www.tryfsharp.org/Create). Silverlight plugin is required.
@@ -33,13 +45,13 @@ By default, Visual Studio does not allow you to organize F# files by folder. Thi
 1. Download the [Exercism.io Visual Studio Template](https://github.com/rprouse/Exercism.VisualStudio) from GitHub by clicking the Download Zip button on the page.
 2. Unzip the template into your exercises directory, for example `C:\src\exercises`
 2. Install the [Exercism CLI](http://help.exercism.io/installing-the-cli.html)
-3. Open a command prompt to your exercise directory 
+3. Open a command prompt to your exercise directory
 4. Add your API key to exercism `exercism configure --key=YOUR_API_KEY`
 5. Configure your source directory in exercism `exercism configure --dir=C:\src\exercises`
 6. [Fetch your first exercise](http://help.exercism.io/fetching-exercises.html) `exercism fetch fsharp`
 7. Open the Exercism solution in Visual Studio
 8. Expand the Exercism.FSharp project
-9. Right click on the project and select **F# Power Tools | New Folder**. Enter the name for the **existing** exercise folder. 
+9. Right click on the project and select **F# Power Tools | New Folder**. Enter the name for the **existing** exercise folder.
 10. Right click on the folder and select **Add | Existing item...** and select the problem files in the folder.
 11. Get coding...
 
@@ -52,6 +64,8 @@ Install the [NUnit Visual Studio Test Adapter](https://visualstudiogallery.msdn.
 You can also run the tests from the command line by installing [NUnit 2.6.3](http://www.nunit.org/). See the instructions for C#.
 
 ## Running Tests
+
+### Windows
 After installing Visual Studio Express for Windows Desktop and the F# tools run Visual Studio and it will display a start screen.
 
 Click on "New Project" and you should see an entry for Visual F# and click on "Class Library".
@@ -75,6 +89,14 @@ If you installed NUnit manually the runner will be in the ```Program Files (x86)
 Once you have been able to compile the code it will create a DLL in the ```\bin\Debug``` folder of your project. In the NUnit runner, select "Open Project" and select the DLL that was created from compiling. This will load all the tests and allow you to run them.
 
 Now you can have fun learning F# and run your code against the tests!
+
+### Mac
+Xamarin Studio also ships with NUnit. From the new project dialog, just select an NUnit class library.
+
+![Xamarin NUnit](/img/setup/fsharp/xamarin-fsharp-nunit.jpeg)
+
+From here you can write NUnit tests right away. To run the tests open the `Unit Tests` pad within
+Xamarin (View -> Pads -> Unit Tests).
 
 ## Linting
 F# projects (.fsproj) can be linted for further code analysis via a third party tool - [FSharpLint](https://github.com/fsprojects/FSharpLint).
