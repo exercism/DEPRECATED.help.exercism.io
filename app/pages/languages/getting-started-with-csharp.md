@@ -29,7 +29,7 @@ This is a Visual Studio template that comes pre-configured to work on the proble
 1. Download the [Exercism.io Visual Studio Template](https://github.com/rprouse/Exercism.VisualStudio) from GitHub by clicking the Download Zip button on the page.
 2. Unzip the template into your exercises directory, for example `C:\src\exercises`
 2. Install the [Exercism CLI](http://help.exercism.io/installing-the-cli.html)
-3. Open a command prompt to your exercise directory 
+3. Open a command prompt to your exercise directory
 4. Add your API key to exercism `exercism configure --key=YOUR_API_KEY`
 5. Configure your source directory in exercism `exercism configure --dir=C:\src\exercises`
 6. [Fetch your first exercise](http://help.exercism.io/fetching-exercises.html) `exercism fetch csharp`
@@ -91,35 +91,23 @@ The compiler executable is usually located in the Microsoft.NET\Framework\Versio
 Refer to this [MSDN article](http://msdn.microsoft.com/en-us/library/78f4aasd.aspx) for more information on the command line compiler.
 
 ### Mac
-Install [Mono Develop](http://www.mono-project.com/Mono:OSX#Installing_Mono_on_MacOS_X).
 
-Build
-```bash
-dmcs Leap.cs LeapTest.cs -reference:nunit.framework.dll
-```
+Install [Xamarin Studio](http://xamarin.com/download).
 
-Link
-```bash
-monolinker -a /../NUnit-2.6.3/bin/nunit.framework.dll -a Leap.dll
-```
+While Xamarin is most known for creating iOS and Android applications, it's still a perfect IDE to create C# console
+or library projects which is all that's needed for Exercism.
 
-And run the DLL
-```bash
-mono /../NUnit-2.6.3/bin/nunit-console.exe output/Leap.dll
-```
+Once installed and running, click on new solution and you'll find the C# library project to select.
 
-Clean up afterwards, if needed.
-```bash
-rm -rf output
-```
-
-Mono does have an IDE that can be used for development instead of the above command line commands.
+![Xamarin New Project](/img/setup/csharp/xamarin-csharp.jpeg)
 
 ### Linux
 
-[Mono Develop](http://www.mono-project.com/Mono_For_Linux_Developers) is also available for Linux.
+[Mono Develop](http://www.mono-project.com/Mono_For_Linux_Developers) is available for Linux.
 
 ## Running Tests
+
+### Windows
 All tests have been ignored except the first one for you to work on. To continue, just remove the ```[Ignore]``` attribute on the test to start working on it.
 
 Make sure [NUnit](http://nunit.org/?p=download) is installed, if not already installed from the setup from above.
@@ -139,6 +127,14 @@ Once you have been able to compile the code it will create a DLL in the ```\bin\
 ![NUnit Runner Execute Tests](/img/setup/csharp/nUnitExecuteTests.png)
 
 The NUnit runner will automatically reload the DLL if it has been updated.
+
+### Mac
+Xamarin Studio also ships with NUnit. From the new project dialog, just select an NUnit class library.
+
+![Xamarin NUnit](/img/setup/csharp/xamarin-nunit.jpeg)
+
+From here you can write NUnit tests right away. To run the tests open the `Unit Tests` pad within
+Xamarin (View -> Pads -> Unit Tests).
 
 ## Code Analysis
 Code Analysis can be turned on to run after a build of certain projects. This [MSDN article](http://msdn.microsoft.com/en-us/library/ms182066.aspx) is a good walkthrough on how to enable code analysis.
