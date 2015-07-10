@@ -304,8 +304,7 @@ The generator name for CMake is `Unix Makefiles`.
 Assuming the current exercise is `bob` and we're in the exercise folder:
 
 ```
-$ cp /dev/null bob.h
-$ cp /dev/null bob.cpp
+$ touch bob.{h,cpp}
 $ mkdir build
 $ cd build
 $ cmake -G "Unix Makefiles" ..
@@ -355,8 +354,7 @@ The generator name for CMake is `Xcode`.
 Assuming the current exercise is `bob` and we're in the exercise folder:
 
 ```
-$ cp /dev/null bob.h
-$ cp /dev/null bob.cpp
+$ touch bob.{h,cpp}
 $ mkdir build
 $ cd build
 $ cmake -G Xcode ..
@@ -371,8 +369,7 @@ The generator name for CMake is `Unix Makefiles`.
 Assuming the current exercise is `bob` and we're in the exercise folder:
 
 ```
-$ cp /dev/null bob.h
-$ cp /dev/null bob.cpp
+$ touch bob.{h,cpp}
 $ mkdir build
 $ cd build
 $ cmake -G "Unix Makefiles" ..
