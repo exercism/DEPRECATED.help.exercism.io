@@ -5,27 +5,113 @@ category: "process"
 ordinal: 3
 ---
 
-There are a few options available to you for installing the CLI on a Mac.
+The easiest way to install the CLI on the mac is to [use homebrew](http://brew.sh/).
 
-1. You can download the [latest release](http://github.com/exercism/cli/releases/latest) for your operating system and architecture (32-bit or 64-bit), unzip it, and place the binary [in your PATH](/understanding-path.html).
-1. You can use the [installation script](https://raw.githubusercontent.com/exercism/cli-www/master/public/install) which is the same thing as above, except automated.
-1. You can use [homebrew](http://brew.sh/).
+Once homebrew is installed, run the following two commands:
 
-## Manual Installation
+```bash
+brew tap homebrew/binary
+brew install exercism
+```
+
+The homebrew version of exercism will often lag a bit behind for a few days
+after a new release has been made, since it requires a pull request to be
+accepted into the homebrew-binary project before it's available.
+
+## Alternate Installation Methods
+
+The second-easiest method is to go grab the [latest
+release](http://github.com/exercism/cli/releases/latest) for your operating
+system and architecture (32-bit or 64-bit), unzip it, and place the binary [in
+your PATH](/understanding-path.html).
+
+If the above made you think _I understood all of the words, but I have no idea
+what the sentence means_, don't worry! There's a step-by-step explanation
+below.
+
+
+### Manual Installation
 
 This is described in detail in [this video tutorial](https://www.youtube.com/watch?v=TCT4eHGwfaE).
 
-If you have neither `curl` nor `wget` then you'll need to [get the latest release](https://github.com/exercism/cli/releases/latest) from GitHub.
+First you need to know which processor architecture your computer has. If
+you're not sure, you can use Terminal.app to find out:
 
-To figure out which processor architecture your computer has, open Terminal.app and type in the following command:
+Open Terminal.app and type in the following command:
 
 ```bash
 uname -m
 ```
 
-Common values are `i386` (32-bit) and `x86_64` (64-bit).
+Common values are `i386` (32-bit) and `x86_64` (64-bit). If you have something
+different, you'll need to ask Google about the details.
 
-**TODO: step-by-step instructions here**
+If you don't have a directory in your home directory called `bin`, make one now:
+
+```bash
+mkdir ~/bin
+```
+
+Next, [get the latest
+release](https://github.com/exercism/cli/releases/latest) from GitHub, making
+sure to get the one that is both for Mac and for your architecture:
+
+Unzip the downloaded archive:
+
+```bash
+cd ~/Downloads
+tar -xzvf exercism-mac-64bit.tgz
+```
+
+Move the exercism binary to the bin directory:
+
+```bash
+mv exercism ~/bin/
+```
+
+Check if `~/bin` is on your path:
+
+```bash
+echo $PATH
+```
+
+Look for a section between two colons that looks like
+`/Users/<your-username>/bin` or `~/bin`.
+
+
+If it's not there, you need to add it. In order to do so, you'll need to
+know which shell you use, so that you can add it to the correct config.
+
+Find out, by running:
+
+```bash
+echo $SHELL
+```
+
+If it says `/bin/bash`, then you're using the default that ships with the Mac.
+If not, you'll need to replace `.bash_profile` with the name of the correct
+config file.
+
+```bash
+echo 'export PATH=~/bin:$PATH' >> ~/.bash_profile
+```
+
+Finally, source your shell config:
+
+```bash
+source ~/.bash_profile
+```
+
+You should now have access to the exercism command:
+
+```bash
+exercism --version
+```
+
+If it gives you a version number, you're good to go. If not, then jump in the
+[support chat](https://gitter.im/exercism/support) or open a [GitHub
+issue](https://github.com/exercism/exercism.io/issues/new)
+and we'll help you get it straightened out.
 
 ## Installation Script
 
@@ -105,15 +191,5 @@ To see all the commands available to you, run `exercism` without any options:
 exercism
 ```
 
-## Homebrew
-
-You'll need to get access to the homebrew/binary repository, then use `brew install` as usual:
-
-```bash
-brew tap homebrew/binary
-brew install exercism
-```
-
-The homebrew version of exercism will often lag a bit behind for a few days after a new release has been made, since it requires a pull request to be accepted into the homebrew-binary project before it's available.
 
 <a class="secondary-button" href="fetching-exercises.html">Fetching Exercises</a>
