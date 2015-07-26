@@ -82,6 +82,7 @@ put this code in `dna.scm`:
 
 * [Structure and Interpretation of Computer Programs][3], by Abelson, Sussman, and Sussman
 * [The Little Schemer][4]
+* [Learn Scheme in 15 minutes][6] using Guile
 
 #### Tooling
 
@@ -94,3 +95,4 @@ Emacs users will want to check out [Geiser][5], a collection of major and minor 
 [3]: http://mitpress.mit.edu/sicp/
 [4]: http://mitpress.mit.edu/books/little-schemer
 [5]: http://www.nongnu.org/geiser/
+[6]: http://web-artanis.com/scheme.html
