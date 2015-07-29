@@ -10,13 +10,12 @@ The easiest way to install the CLI on the mac is to [use homebrew](http://brew.s
 Once homebrew is installed, run the following two commands:
 
 ```bash
-brew tap homebrew/binary
 brew install exercism
 ```
 
 The homebrew version of exercism will often lag a bit behind for a few days
 after a new release has been made, since it requires a pull request to be
-accepted into the homebrew-binary project before it's available.
+accepted into the homebrew project before it's available.
 
 ## Alternate Installation Methods
 
