@@ -1,5 +1,5 @@
 ---
-title: "LFE"
+title: "Lisp Flavoured Erlang"
 slug: "getting-started-with-lfe"
 category: "languages"
 ordinal: 1000
