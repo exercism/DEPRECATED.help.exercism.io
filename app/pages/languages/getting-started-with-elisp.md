@@ -1,6 +1,6 @@
 ---
 title: "Emacs Lisp"
-slug: "getting-started-with-emacs-lisp"
+slug: "getting-started-with-elisp"
 category: "languages"
 ordinal: 520
 ---
