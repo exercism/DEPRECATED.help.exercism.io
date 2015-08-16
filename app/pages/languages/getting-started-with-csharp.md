@@ -99,7 +99,7 @@ or library projects which is all that's needed for Exercism.
 
 Once installed and running, click on new solution and you'll find the C# library project to select.
 
-![Xamarin New Project](/img/setup/csharp/xamarin-csharp.jpeg)
+![Xamarin New Project](/img/setup/csharp/xamarin-csharp.jpg)
 
 ### Linux
 
@@ -131,7 +131,7 @@ The NUnit runner will automatically reload the DLL if it has been updated.
 ### Mac
 Xamarin Studio also ships with NUnit. From the new project dialog, just select an NUnit class library.
 
-![Xamarin NUnit](/img/setup/csharp/xamarin-nunit.jpeg)
+![Xamarin NUnit](/img/setup/csharp/xamarin-nunit.jpg)
 
 From here you can write NUnit tests right away. To run the tests open the `Unit Tests` pad within
 Xamarin (View -> Pads -> Unit Tests).
