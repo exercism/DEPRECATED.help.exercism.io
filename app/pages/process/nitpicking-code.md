@@ -26,3 +26,6 @@ Please note that _good job_ or _great work_ are not positive, constructive feedb
 When leaving nitpicks, please remember that beginners do not always have the same confidence level as more experienced developers. It is therefore important to be courteous and considerate. Strive to be clear in your explanations and give users a chance to arrive at their own improvements. Might the Socratic Method be a suitable approach?
 
 > A rising tide lifts all the boats. - Unknown
+
+
+<a class="secondary-button" href="hibernation.html">Hibernation</a>
