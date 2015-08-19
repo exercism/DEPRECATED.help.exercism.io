@@ -32,3 +32,6 @@ flags, see `exercism help configure` for more details.
 The configuration is written to `~/.exercism.json`. This can be configured
 using an environment variable named `EXERCISM_CONFIG_FILE`.
 You can also edit this file instead of running `exercism configure` command.
+
+
+<a class="secondary-button" href="fetching-exercises.html">Fetching Exercises</a>
