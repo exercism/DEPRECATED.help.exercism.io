@@ -16,7 +16,7 @@ For *nix variants, you can also install Racket using your OS' package manager:
 Install via Homebrew:
 
 ```bash
-brew install plt-racket
+brew install racket
 ```
 
 **Linux**
@@ -45,9 +45,9 @@ racket hello-world-test.rkt
 
 ### Recommended Resources
 
-#### Reading
-
-* [Getting Started](http://docs.racket-lang.org/getting-started/) on the Racket website.
+* [The Racket Guide](http://docs.racket-lang.org/guide/index.html)
+* [How to Program Racket](http://docs.racket-lang.org/style/index.html) - The Racket Style Guide
+* [The Racket Reference](http://docs.racket-lang.org/reference/index.html) - Documentation for the core Racket language and prominent libraries
 * [How to Design Programs](http://htdp.org/), by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shiriam Krishnamurthi
 * [The Little Schemer](http://mitpress.mit.edu/books/little-schemer), by Daniel P. Friedman and Matthias Felleisen
 
