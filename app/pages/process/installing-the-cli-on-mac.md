@@ -7,7 +7,13 @@ ordinal: 3
 
 The easiest way to install the CLI on the mac is to [use homebrew](http://brew.sh/).
 
-Once homebrew is installed, run the following two commands:
+If you already have homebrew installed, be sure you have the latest formulae:
+
+```bash
+brew update
+```
+
+To install the exercism CLI:
 
 ```bash
 brew install exercism
