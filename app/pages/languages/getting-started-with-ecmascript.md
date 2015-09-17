@@ -42,7 +42,7 @@ $ export PATH=/usr/local/share/npm/bin:$PATH
 Each assignment needs some tools to run the tests:
 
 * [Traceur](https://github.com/google/traceur-compiler): to transpile ECMAScript
-6 code to ECMAScript 5
+2015 code to ECMAScript 5
 * [Jasmine](http://jasmine.github.io): to run tests
 * [Gulp](http://gulpjs.com): to automate everything, you don't need to worry
 about anything
@@ -61,31 +61,31 @@ Execute the tests with:
 $ gulp test
 ```
 
-## Making Your First Node Module
+## Making Your First ECMAScript 2015 Module
 
-To create a module that can be loaded with `var Bob = require('./bob.js');`, put
-this code in `bob.js`:
+Usually, tests on this track will load your implementation importing it as a
+ECMAScript 2015 module: `import Bob from './bob.js';`. To make it work, you just
+needs to export your implementation from the file the tests are looking for
+your module, `bob.js`:
 
 ```javascript
-var Bob = function() {};
-
-Bob.prototype.hey = function(what) {
+export default class Bob {
+  hey(message) {
 	//
 	// Your solution to the exercise goes here
 	//
-};
-
-module.exports = Bob;
+  }
+}
 ```
 
 You can find more information about modules in the
-[node documentation](http://nodejs.org/api/modules.html#modules_module_exports).
+[Traceur documentation](https://github.com/google/traceur-compiler/wiki/LanguageFeatures#modules).
 To make it easier to get started, there is a *skeleton* ECMAScript file in the
-directory for the first exercises.
+directory for the first exercise.
 
 ## Recommended Learning Resources
 
-* [Exploring ES6](https://leanpub.com/exploring-es6/read) book, by Axel Rauschmayer
+* [Exploring ES6](https://leanpub.com/exploring-es6) book, by Axel Rauschmayer
 * [ES6 Katas](http://es6katas.org) website
 * [Traceur compiler](https://github.com/google/traceur-compiler)
 
