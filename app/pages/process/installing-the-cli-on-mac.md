@@ -7,21 +7,25 @@ ordinal: 3
 
 The easiest way to install the CLI on the mac is to [use homebrew](http://brew.sh/).
 
-If you already have homebrew installed, be sure you have the latest formulae:
+If you already have homebrew installed, you can install exercism with the following command:
 
 ```bash
-brew update
+brew update &&  brew install exercism
 ```
 
-To install the exercism CLI:
+Verify that it was installed properly by running:
 
 ```bash
-brew install exercism
+exercism --version
 ```
 
-The homebrew version of exercism will often lag a bit behind for a few days
-after a new release has been made, since it requires a pull request to be
-accepted into the homebrew project before it's available.
+When installed properly, the response should be a line saying _exercism version X_ where X
+is a version number.
+
+If there was a problem, then you will get an error message saying _command not found_.
+
+If everything is fine, you're done installing the CLI, and you can move on to the next step,
+which is configuring it.
 
 ## Alternate Installation Methods
 
@@ -33,7 +37,6 @@ your PATH](/understanding-path.html).
 If the above made you think _I understood all of the words, but I have no idea
 what the sentence means_, don't worry! There's a step-by-step explanation
 below.
-
 
 ### Manual Installation
 
