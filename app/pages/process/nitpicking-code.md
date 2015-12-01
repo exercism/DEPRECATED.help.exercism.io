@@ -2,7 +2,7 @@
 title: "Nitpicking Code"
 slug: "nitpicking-code"
 category: "process"
-ordinal: 8
+ordinal: 9
 ---
 
 **A practical guide to providing better feedback on solutions to exercises.**
