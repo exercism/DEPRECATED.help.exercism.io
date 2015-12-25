@@ -46,6 +46,8 @@ Each assignment needs some tools to run the tests:
 * [Jasmine](http://jasmine.github.io): to run tests
 * [Gulp](http://gulpjs.com): to automate everything, you don't need to worry
 about anything
+* [ESLint](http://eslint.org/) (optional): to perform several static analysis and
+coding style checks to your ECMAScript code.
 
 They can be installed running this command within each assignment directory:
 
@@ -59,6 +61,20 @@ Execute the tests with:
 
 ```bash
 $ gulp test
+```
+
+Be sure your code follows best practices and coding styles, as other users do, with
+ESLint, a tool to perform static analysis to your code. Sometimes, tools like this
+save you some time detecting typos or silly mistakes in your ECMAScript code:
+
+```bash
+$ gulp lint
+```
+
+Or both at the same time:
+
+```bash
+$ gulp lint test
 ```
 
 ## Making Your First ECMAScript 2015 Module
