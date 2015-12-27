@@ -4,19 +4,14 @@
 
 **_We are no longer accepting pull requests to this repository._**
 
-This site is still up on help.exercism.io, but we're moving the
-language-specific documentation and incorporating it into the
-/languages/:track_id pages on exercism.io.
-
-The contributor-specific documentation has been incorporated
-into the contributing guide in exercism/x-common
-
-We will be moving the documentation about the general exercism.io
-process ("how it works" and "troubleshooting") into the main
-exercism codebase.
+- Contributor-specific documentation: https://github.com/exercism/x-common/blob/master/CONTRIBUTING.md
+- General help/troubleshooting: http://exercism.io/help
+- Language-specific documentation: http://exercism.io/languages
+- How Exercism Works: http://exercism.io/how-it-works
+- Command-line client installation: http://exercism.io/cli
 
 ## LICENSE
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Katrina Owen, _@kytrinyx.com
+Copyright (c) 2015 Katrina Owen, _@kytrinyx.com
